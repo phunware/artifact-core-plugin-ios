@@ -1,0 +1,2843 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "PhunwareCorePlugin",
+    "printedName": "PhunwareCorePlugin",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PhunwareCorePlugin",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Deeplink",
+        "printedName": "Deeplink",
+        "children": [
+          {
+            "kind": "TypeDecl",
+            "name": "InternalDestination",
+            "printedName": "InternalDestination",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "document",
+                "printedName": "document",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(PhunwareCorePlugin.Deeplink.InternalDestination.Type) -> (Swift.String, Swift.String) -> PhunwareCorePlugin.Deeplink.InternalDestination",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Swift.String, Swift.String) -> PhunwareCorePlugin.Deeplink.InternalDestination",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "InternalDestination",
+                            "printedName": "PhunwareCorePlugin.Deeplink.InternalDestination",
+                            "usr": "s:18PhunwareCorePlugin8DeeplinkV19InternalDestinationO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "(collectionId: Swift.String, documentId: Swift.String)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "PhunwareCorePlugin.Deeplink.InternalDestination.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "InternalDestination",
+                            "printedName": "PhunwareCorePlugin.Deeplink.InternalDestination",
+                            "usr": "s:18PhunwareCorePlugin8DeeplinkV19InternalDestinationO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:18PhunwareCorePlugin8DeeplinkV19InternalDestinationO8documentyAESS_SStcAEmF",
+                "mangledName": "$s18PhunwareCorePlugin8DeeplinkV19InternalDestinationO8documentyAESS_SStcAEmF",
+                "moduleName": "PhunwareCorePlugin"
+              },
+              {
+                "kind": "Var",
+                "name": "collection",
+                "printedName": "collection",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(PhunwareCorePlugin.Deeplink.InternalDestination.Type) -> (Swift.String, Swift.String?) -> PhunwareCorePlugin.Deeplink.InternalDestination",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Swift.String, Swift.String?) -> PhunwareCorePlugin.Deeplink.InternalDestination",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "InternalDestination",
+                            "printedName": "PhunwareCorePlugin.Deeplink.InternalDestination",
+                            "usr": "s:18PhunwareCorePlugin8DeeplinkV19InternalDestinationO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "(collectionId: Swift.String, title: Swift.String?)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Optional",
+                                "printedName": "Swift.String?",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "String",
+                                    "printedName": "Swift.String",
+                                    "usr": "s:SS"
+                                  }
+                                ],
+                                "usr": "s:Sq"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "PhunwareCorePlugin.Deeplink.InternalDestination.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "InternalDestination",
+                            "printedName": "PhunwareCorePlugin.Deeplink.InternalDestination",
+                            "usr": "s:18PhunwareCorePlugin8DeeplinkV19InternalDestinationO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:18PhunwareCorePlugin8DeeplinkV19InternalDestinationO10collectionyAESS_SSSgtcAEmF",
+                "mangledName": "$s18PhunwareCorePlugin8DeeplinkV19InternalDestinationO10collectionyAESS_SSSgtcAEmF",
+                "moduleName": "PhunwareCorePlugin"
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:18PhunwareCorePlugin8DeeplinkV19InternalDestinationO",
+            "mangledName": "$s18PhunwareCorePlugin8DeeplinkV19InternalDestinationO",
+            "moduleName": "PhunwareCorePlugin",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "ExternalDestination",
+            "printedName": "ExternalDestination",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "map",
+                "printedName": "map",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(PhunwareCorePlugin.Deeplink.ExternalDestination.Type) -> (Swift.String) -> PhunwareCorePlugin.Deeplink.ExternalDestination",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Swift.String) -> PhunwareCorePlugin.Deeplink.ExternalDestination",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ExternalDestination",
+                            "printedName": "PhunwareCorePlugin.Deeplink.ExternalDestination",
+                            "usr": "s:18PhunwareCorePlugin8DeeplinkV19ExternalDestinationO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "(mapName: Swift.String)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "PhunwareCorePlugin.Deeplink.ExternalDestination.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ExternalDestination",
+                            "printedName": "PhunwareCorePlugin.Deeplink.ExternalDestination",
+                            "usr": "s:18PhunwareCorePlugin8DeeplinkV19ExternalDestinationO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:18PhunwareCorePlugin8DeeplinkV19ExternalDestinationO3mapyAESS_tcAEmF",
+                "mangledName": "$s18PhunwareCorePlugin8DeeplinkV19ExternalDestinationO3mapyAESS_tcAEmF",
+                "moduleName": "PhunwareCorePlugin"
+              },
+              {
+                "kind": "Var",
+                "name": "custom",
+                "printedName": "custom",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(PhunwareCorePlugin.Deeplink.ExternalDestination.Type) -> (Swift.String) -> PhunwareCorePlugin.Deeplink.ExternalDestination",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Swift.String) -> PhunwareCorePlugin.Deeplink.ExternalDestination",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ExternalDestination",
+                            "printedName": "PhunwareCorePlugin.Deeplink.ExternalDestination",
+                            "usr": "s:18PhunwareCorePlugin8DeeplinkV19ExternalDestinationO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "(data: Swift.String)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "PhunwareCorePlugin.Deeplink.ExternalDestination.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ExternalDestination",
+                            "printedName": "PhunwareCorePlugin.Deeplink.ExternalDestination",
+                            "usr": "s:18PhunwareCorePlugin8DeeplinkV19ExternalDestinationO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:18PhunwareCorePlugin8DeeplinkV19ExternalDestinationO6customyAESS_tcAEmF",
+                "mangledName": "$s18PhunwareCorePlugin8DeeplinkV19ExternalDestinationO6customyAESS_tcAEmF",
+                "moduleName": "PhunwareCorePlugin"
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:18PhunwareCorePlugin8DeeplinkV19ExternalDestinationO",
+            "mangledName": "$s18PhunwareCorePlugin8DeeplinkV19ExternalDestinationO",
+            "moduleName": "PhunwareCorePlugin",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "Destination",
+            "printedName": "Destination",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "event",
+                "printedName": "event",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(PhunwareCorePlugin.Deeplink.Destination.Type) -> (PhunwareCorePlugin.Deeplink.InternalDestination) -> PhunwareCorePlugin.Deeplink.Destination",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(PhunwareCorePlugin.Deeplink.InternalDestination) -> PhunwareCorePlugin.Deeplink.Destination",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Destination",
+                            "printedName": "PhunwareCorePlugin.Deeplink.Destination",
+                            "usr": "s:18PhunwareCorePlugin8DeeplinkV11DestinationO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "(destination: PhunwareCorePlugin.Deeplink.InternalDestination)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "InternalDestination",
+                                "printedName": "PhunwareCorePlugin.Deeplink.InternalDestination",
+                                "usr": "s:18PhunwareCorePlugin8DeeplinkV19InternalDestinationO"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "PhunwareCorePlugin.Deeplink.Destination.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Destination",
+                            "printedName": "PhunwareCorePlugin.Deeplink.Destination",
+                            "usr": "s:18PhunwareCorePlugin8DeeplinkV11DestinationO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:18PhunwareCorePlugin8DeeplinkV11DestinationO5eventyAeC08InternalE0O_tcAEmF",
+                "mangledName": "$s18PhunwareCorePlugin8DeeplinkV11DestinationO5eventyAeC08InternalE0O_tcAEmF",
+                "moduleName": "PhunwareCorePlugin"
+              },
+              {
+                "kind": "Var",
+                "name": "news",
+                "printedName": "news",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(PhunwareCorePlugin.Deeplink.Destination.Type) -> (PhunwareCorePlugin.Deeplink.InternalDestination) -> PhunwareCorePlugin.Deeplink.Destination",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(PhunwareCorePlugin.Deeplink.InternalDestination) -> PhunwareCorePlugin.Deeplink.Destination",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Destination",
+                            "printedName": "PhunwareCorePlugin.Deeplink.Destination",
+                            "usr": "s:18PhunwareCorePlugin8DeeplinkV11DestinationO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "(destination: PhunwareCorePlugin.Deeplink.InternalDestination)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "InternalDestination",
+                                "printedName": "PhunwareCorePlugin.Deeplink.InternalDestination",
+                                "usr": "s:18PhunwareCorePlugin8DeeplinkV19InternalDestinationO"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "PhunwareCorePlugin.Deeplink.Destination.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Destination",
+                            "printedName": "PhunwareCorePlugin.Deeplink.Destination",
+                            "usr": "s:18PhunwareCorePlugin8DeeplinkV11DestinationO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:18PhunwareCorePlugin8DeeplinkV11DestinationO4newsyAeC08InternalE0O_tcAEmF",
+                "mangledName": "$s18PhunwareCorePlugin8DeeplinkV11DestinationO4newsyAeC08InternalE0O_tcAEmF",
+                "moduleName": "PhunwareCorePlugin"
+              },
+              {
+                "kind": "Var",
+                "name": "directory",
+                "printedName": "directory",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(PhunwareCorePlugin.Deeplink.Destination.Type) -> (PhunwareCorePlugin.Deeplink.InternalDestination) -> PhunwareCorePlugin.Deeplink.Destination",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(PhunwareCorePlugin.Deeplink.InternalDestination) -> PhunwareCorePlugin.Deeplink.Destination",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Destination",
+                            "printedName": "PhunwareCorePlugin.Deeplink.Destination",
+                            "usr": "s:18PhunwareCorePlugin8DeeplinkV11DestinationO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "(destination: PhunwareCorePlugin.Deeplink.InternalDestination)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "InternalDestination",
+                                "printedName": "PhunwareCorePlugin.Deeplink.InternalDestination",
+                                "usr": "s:18PhunwareCorePlugin8DeeplinkV19InternalDestinationO"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "PhunwareCorePlugin.Deeplink.Destination.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Destination",
+                            "printedName": "PhunwareCorePlugin.Deeplink.Destination",
+                            "usr": "s:18PhunwareCorePlugin8DeeplinkV11DestinationO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:18PhunwareCorePlugin8DeeplinkV11DestinationO9directoryyAeC08InternalE0O_tcAEmF",
+                "mangledName": "$s18PhunwareCorePlugin8DeeplinkV11DestinationO9directoryyAeC08InternalE0O_tcAEmF",
+                "moduleName": "PhunwareCorePlugin"
+              },
+              {
+                "kind": "Var",
+                "name": "directoryIndividual",
+                "printedName": "directoryIndividual",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(PhunwareCorePlugin.Deeplink.Destination.Type) -> (PhunwareCorePlugin.Deeplink.InternalDestination) -> PhunwareCorePlugin.Deeplink.Destination",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(PhunwareCorePlugin.Deeplink.InternalDestination) -> PhunwareCorePlugin.Deeplink.Destination",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Destination",
+                            "printedName": "PhunwareCorePlugin.Deeplink.Destination",
+                            "usr": "s:18PhunwareCorePlugin8DeeplinkV11DestinationO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "(destination: PhunwareCorePlugin.Deeplink.InternalDestination)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "InternalDestination",
+                                "printedName": "PhunwareCorePlugin.Deeplink.InternalDestination",
+                                "usr": "s:18PhunwareCorePlugin8DeeplinkV19InternalDestinationO"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "PhunwareCorePlugin.Deeplink.Destination.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Destination",
+                            "printedName": "PhunwareCorePlugin.Deeplink.Destination",
+                            "usr": "s:18PhunwareCorePlugin8DeeplinkV11DestinationO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:18PhunwareCorePlugin8DeeplinkV11DestinationO19directoryIndividualyAeC08InternalE0O_tcAEmF",
+                "mangledName": "$s18PhunwareCorePlugin8DeeplinkV11DestinationO19directoryIndividualyAeC08InternalE0O_tcAEmF",
+                "moduleName": "PhunwareCorePlugin"
+              },
+              {
+                "kind": "Var",
+                "name": "contentDetail",
+                "printedName": "contentDetail",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(PhunwareCorePlugin.Deeplink.Destination.Type) -> (PhunwareCorePlugin.Deeplink.InternalDestination) -> PhunwareCorePlugin.Deeplink.Destination",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(PhunwareCorePlugin.Deeplink.InternalDestination) -> PhunwareCorePlugin.Deeplink.Destination",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Destination",
+                            "printedName": "PhunwareCorePlugin.Deeplink.Destination",
+                            "usr": "s:18PhunwareCorePlugin8DeeplinkV11DestinationO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "(destination: PhunwareCorePlugin.Deeplink.InternalDestination)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "InternalDestination",
+                                "printedName": "PhunwareCorePlugin.Deeplink.InternalDestination",
+                                "usr": "s:18PhunwareCorePlugin8DeeplinkV19InternalDestinationO"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "PhunwareCorePlugin.Deeplink.Destination.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Destination",
+                            "printedName": "PhunwareCorePlugin.Deeplink.Destination",
+                            "usr": "s:18PhunwareCorePlugin8DeeplinkV11DestinationO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:18PhunwareCorePlugin8DeeplinkV11DestinationO13contentDetailyAeC08InternalE0O_tcAEmF",
+                "mangledName": "$s18PhunwareCorePlugin8DeeplinkV11DestinationO13contentDetailyAeC08InternalE0O_tcAEmF",
+                "moduleName": "PhunwareCorePlugin"
+              },
+              {
+                "kind": "Var",
+                "name": "weblink",
+                "printedName": "weblink",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(PhunwareCorePlugin.Deeplink.Destination.Type) -> (Foundation.URL) -> PhunwareCorePlugin.Deeplink.Destination",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Foundation.URL) -> PhunwareCorePlugin.Deeplink.Destination",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Destination",
+                            "printedName": "PhunwareCorePlugin.Deeplink.Destination",
+                            "usr": "s:18PhunwareCorePlugin8DeeplinkV11DestinationO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "(url: Foundation.URL)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "URL",
+                                "printedName": "Foundation.URL",
+                                "usr": "s:10Foundation3URLV"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "PhunwareCorePlugin.Deeplink.Destination.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Destination",
+                            "printedName": "PhunwareCorePlugin.Deeplink.Destination",
+                            "usr": "s:18PhunwareCorePlugin8DeeplinkV11DestinationO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:18PhunwareCorePlugin8DeeplinkV11DestinationO7weblinkyAE10Foundation3URLV_tcAEmF",
+                "mangledName": "$s18PhunwareCorePlugin8DeeplinkV11DestinationO7weblinkyAE10Foundation3URLV_tcAEmF",
+                "moduleName": "PhunwareCorePlugin"
+              },
+              {
+                "kind": "Var",
+                "name": "external",
+                "printedName": "external",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(PhunwareCorePlugin.Deeplink.Destination.Type) -> (PhunwareCorePlugin.Deeplink.ExternalDestination) -> PhunwareCorePlugin.Deeplink.Destination",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(PhunwareCorePlugin.Deeplink.ExternalDestination) -> PhunwareCorePlugin.Deeplink.Destination",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Destination",
+                            "printedName": "PhunwareCorePlugin.Deeplink.Destination",
+                            "usr": "s:18PhunwareCorePlugin8DeeplinkV11DestinationO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "(destination: PhunwareCorePlugin.Deeplink.ExternalDestination)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "ExternalDestination",
+                                "printedName": "PhunwareCorePlugin.Deeplink.ExternalDestination",
+                                "usr": "s:18PhunwareCorePlugin8DeeplinkV19ExternalDestinationO"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "PhunwareCorePlugin.Deeplink.Destination.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Destination",
+                            "printedName": "PhunwareCorePlugin.Deeplink.Destination",
+                            "usr": "s:18PhunwareCorePlugin8DeeplinkV11DestinationO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:18PhunwareCorePlugin8DeeplinkV11DestinationO8externalyAeC08ExternalE0O_tcAEmF",
+                "mangledName": "$s18PhunwareCorePlugin8DeeplinkV11DestinationO8externalyAeC08ExternalE0O_tcAEmF",
+                "moduleName": "PhunwareCorePlugin"
+              },
+              {
+                "kind": "Var",
+                "name": "externalApp",
+                "printedName": "externalApp",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(PhunwareCorePlugin.Deeplink.Destination.Type) -> (Foundation.URL, Foundation.URL?) -> PhunwareCorePlugin.Deeplink.Destination",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Foundation.URL, Foundation.URL?) -> PhunwareCorePlugin.Deeplink.Destination",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Destination",
+                            "printedName": "PhunwareCorePlugin.Deeplink.Destination",
+                            "usr": "s:18PhunwareCorePlugin8DeeplinkV11DestinationO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "(primaryURL: Foundation.URL, fallbackURL: Foundation.URL?)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "URL",
+                                "printedName": "Foundation.URL",
+                                "usr": "s:10Foundation3URLV"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Optional",
+                                "printedName": "Foundation.URL?",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "URL",
+                                    "printedName": "Foundation.URL",
+                                    "usr": "s:10Foundation3URLV"
+                                  }
+                                ],
+                                "usr": "s:Sq"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "PhunwareCorePlugin.Deeplink.Destination.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Destination",
+                            "printedName": "PhunwareCorePlugin.Deeplink.Destination",
+                            "usr": "s:18PhunwareCorePlugin8DeeplinkV11DestinationO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:18PhunwareCorePlugin8DeeplinkV11DestinationO11externalAppyAE10Foundation3URLV_AISgtcAEmF",
+                "mangledName": "$s18PhunwareCorePlugin8DeeplinkV11DestinationO11externalAppyAE10Foundation3URLV_AISgtcAEmF",
+                "moduleName": "PhunwareCorePlugin"
+              },
+              {
+                "kind": "Var",
+                "name": "navigation",
+                "printedName": "navigation",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(PhunwareCorePlugin.Deeplink.Destination.Type) -> (Swift.String) -> PhunwareCorePlugin.Deeplink.Destination",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Swift.String) -> PhunwareCorePlugin.Deeplink.Destination",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Destination",
+                            "printedName": "PhunwareCorePlugin.Deeplink.Destination",
+                            "usr": "s:18PhunwareCorePlugin8DeeplinkV11DestinationO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "(destinationPath: Swift.String)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "PhunwareCorePlugin.Deeplink.Destination.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Destination",
+                            "printedName": "PhunwareCorePlugin.Deeplink.Destination",
+                            "usr": "s:18PhunwareCorePlugin8DeeplinkV11DestinationO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:18PhunwareCorePlugin8DeeplinkV11DestinationO10navigationyAESS_tcAEmF",
+                "mangledName": "$s18PhunwareCorePlugin8DeeplinkV11DestinationO10navigationyAESS_tcAEmF",
+                "moduleName": "PhunwareCorePlugin"
+              },
+              {
+                "kind": "Var",
+                "name": "experienceSelector",
+                "printedName": "experienceSelector",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(PhunwareCorePlugin.Deeplink.Destination.Type) -> PhunwareCorePlugin.Deeplink.Destination",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Destination",
+                        "printedName": "PhunwareCorePlugin.Deeplink.Destination",
+                        "usr": "s:18PhunwareCorePlugin8DeeplinkV11DestinationO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "PhunwareCorePlugin.Deeplink.Destination.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Destination",
+                            "printedName": "PhunwareCorePlugin.Deeplink.Destination",
+                            "usr": "s:18PhunwareCorePlugin8DeeplinkV11DestinationO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:18PhunwareCorePlugin8DeeplinkV11DestinationO18experienceSelectoryA2EmF",
+                "mangledName": "$s18PhunwareCorePlugin8DeeplinkV11DestinationO18experienceSelectoryA2EmF",
+                "moduleName": "PhunwareCorePlugin"
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:18PhunwareCorePlugin8DeeplinkV11DestinationO",
+            "mangledName": "$s18PhunwareCorePlugin8DeeplinkV11DestinationO",
+            "moduleName": "PhunwareCorePlugin",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "destination",
+            "printedName": "destination",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Destination",
+                "printedName": "PhunwareCorePlugin.Deeplink.Destination",
+                "usr": "s:18PhunwareCorePlugin8DeeplinkV11DestinationO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18PhunwareCorePlugin8DeeplinkV11destinationAC11DestinationOvp",
+            "mangledName": "$s18PhunwareCorePlugin8DeeplinkV11destinationAC11DestinationOvp",
+            "moduleName": "PhunwareCorePlugin",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Destination",
+                    "printedName": "PhunwareCorePlugin.Deeplink.Destination",
+                    "usr": "s:18PhunwareCorePlugin8DeeplinkV11DestinationO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18PhunwareCorePlugin8DeeplinkV11destinationAC11DestinationOvg",
+                "mangledName": "$s18PhunwareCorePlugin8DeeplinkV11destinationAC11DestinationOvg",
+                "moduleName": "PhunwareCorePlugin",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isUnhosted",
+            "printedName": "isUnhosted",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18PhunwareCorePlugin8DeeplinkV10isUnhostedSbvp",
+            "mangledName": "$s18PhunwareCorePlugin8DeeplinkV10isUnhostedSbvp",
+            "moduleName": "PhunwareCorePlugin",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18PhunwareCorePlugin8DeeplinkV10isUnhostedSbvg",
+                "mangledName": "$s18PhunwareCorePlugin8DeeplinkV10isUnhostedSbvg",
+                "moduleName": "PhunwareCorePlugin",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(contentType:contentAddress:titleToUseIfCollection:fallbackURLString:isUnhosted:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "PhunwareCorePlugin.Deeplink?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Deeplink",
+                    "printedName": "PhunwareCorePlugin.Deeplink",
+                    "usr": "s:18PhunwareCorePlugin8DeeplinkV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:18PhunwareCorePlugin8DeeplinkV11contentType0E7Address22titleToUseIfCollection17fallbackURLString10isUnhostedACSgSS_S2SSgAJSbtcfc",
+            "mangledName": "$s18PhunwareCorePlugin8DeeplinkV11contentType0E7Address22titleToUseIfCollection17fallbackURLString10isUnhostedACSgSS_S2SSgAJSbtcfc",
+            "moduleName": "PhunwareCorePlugin",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "customDeeplink",
+            "printedName": "customDeeplink(string:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "PhunwareCorePlugin.Deeplink?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Deeplink",
+                    "printedName": "PhunwareCorePlugin.Deeplink",
+                    "usr": "s:18PhunwareCorePlugin8DeeplinkV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18PhunwareCorePlugin8DeeplinkV06customD06stringACSgSS_tFZ",
+            "mangledName": "$s18PhunwareCorePlugin8DeeplinkV06customD06stringACSgSS_tFZ",
+            "moduleName": "PhunwareCorePlugin",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "customDeeplink",
+            "printedName": "customDeeplink(url:isUnhosted:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "PhunwareCorePlugin.Deeplink?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Deeplink",
+                    "printedName": "PhunwareCorePlugin.Deeplink",
+                    "usr": "s:18PhunwareCorePlugin8DeeplinkV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18PhunwareCorePlugin8DeeplinkV06customD03url10isUnhostedACSg10Foundation3URLV_SbtFZ",
+            "mangledName": "$s18PhunwareCorePlugin8DeeplinkV06customD03url10isUnhostedACSg10Foundation3URLV_SbtFZ",
+            "moduleName": "PhunwareCorePlugin",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "weblink",
+            "printedName": "weblink(string:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "PhunwareCorePlugin.Deeplink?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Deeplink",
+                    "printedName": "PhunwareCorePlugin.Deeplink",
+                    "usr": "s:18PhunwareCorePlugin8DeeplinkV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18PhunwareCorePlugin8DeeplinkV7weblink6stringACSgSS_tFZ",
+            "mangledName": "$s18PhunwareCorePlugin8DeeplinkV7weblink6stringACSgSS_tFZ",
+            "moduleName": "PhunwareCorePlugin",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "asUnhosted",
+            "printedName": "asUnhosted",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Deeplink",
+                "printedName": "PhunwareCorePlugin.Deeplink",
+                "usr": "s:18PhunwareCorePlugin8DeeplinkV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18PhunwareCorePlugin8DeeplinkV10asUnhostedACvp",
+            "mangledName": "$s18PhunwareCorePlugin8DeeplinkV10asUnhostedACvp",
+            "moduleName": "PhunwareCorePlugin",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Deeplink",
+                    "printedName": "PhunwareCorePlugin.Deeplink",
+                    "usr": "s:18PhunwareCorePlugin8DeeplinkV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18PhunwareCorePlugin8DeeplinkV10asUnhostedACvg",
+                "mangledName": "$s18PhunwareCorePlugin8DeeplinkV10asUnhostedACvg",
+                "moduleName": "PhunwareCorePlugin",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:18PhunwareCorePlugin8DeeplinkV",
+        "mangledName": "$s18PhunwareCorePlugin8DeeplinkV",
+        "moduleName": "PhunwareCorePlugin",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PhunwareCorePlugin",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PhunwareFoundation",
+        "printedName": "PhunwareFoundation",
+        "declKind": "Import",
+        "moduleName": "PhunwareCorePlugin"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DeferredDeeplink",
+        "printedName": "DeferredDeeplink",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "deeplink",
+            "printedName": "deeplink",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Deeplink",
+                "printedName": "PhunwareCorePlugin.Deeplink",
+                "usr": "s:18PhunwareCorePlugin8DeeplinkV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18PhunwareCorePlugin16DeferredDeeplinkV8deeplinkAA0E0Vvp",
+            "mangledName": "$s18PhunwareCorePlugin16DeferredDeeplinkV8deeplinkAA0E0Vvp",
+            "moduleName": "PhunwareCorePlugin",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Deeplink",
+                    "printedName": "PhunwareCorePlugin.Deeplink",
+                    "usr": "s:18PhunwareCorePlugin8DeeplinkV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18PhunwareCorePlugin16DeferredDeeplinkV8deeplinkAA0E0Vvg",
+                "mangledName": "$s18PhunwareCorePlugin16DeferredDeeplinkV8deeplinkAA0E0Vvg",
+                "moduleName": "PhunwareCorePlugin",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "completion",
+            "printedName": "completion",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Bool) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18PhunwareCorePlugin16DeferredDeeplinkV10completionyySbcvp",
+            "mangledName": "$s18PhunwareCorePlugin16DeferredDeeplinkV10completionyySbcvp",
+            "moduleName": "PhunwareCorePlugin",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Bool) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18PhunwareCorePlugin16DeferredDeeplinkV10completionyySbcvg",
+                "mangledName": "$s18PhunwareCorePlugin16DeferredDeeplinkV10completionyySbcvg",
+                "moduleName": "PhunwareCorePlugin",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(deeplink:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DeferredDeeplink",
+                "printedName": "PhunwareCorePlugin.DeferredDeeplink",
+                "usr": "s:18PhunwareCorePlugin16DeferredDeeplinkV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Deeplink",
+                "printedName": "PhunwareCorePlugin.Deeplink",
+                "usr": "s:18PhunwareCorePlugin8DeeplinkV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Bool) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:18PhunwareCorePlugin16DeferredDeeplinkV8deeplink10completionAcA0E0V_ySbctcfc",
+            "mangledName": "$s18PhunwareCorePlugin16DeferredDeeplinkV8deeplink10completionAcA0E0V_ySbctcfc",
+            "moduleName": "PhunwareCorePlugin",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:18PhunwareCorePlugin16DeferredDeeplinkV",
+        "mangledName": "$s18PhunwareCorePlugin16DeferredDeeplinkV",
+        "moduleName": "PhunwareCorePlugin",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DeeplinkNavigable",
+        "printedName": "DeeplinkNavigable",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "childNavigationHandlers",
+            "printedName": "childNavigationHandlers",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[any PhunwareCorePlugin.DeeplinkNavigable]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DeeplinkNavigable",
+                    "printedName": "any PhunwareCorePlugin.DeeplinkNavigable",
+                    "usr": "s:18PhunwareCorePlugin17DeeplinkNavigableP"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18PhunwareCorePlugin17DeeplinkNavigableP23childNavigationHandlersSayAaB_pGvp",
+            "mangledName": "$s18PhunwareCorePlugin17DeeplinkNavigableP23childNavigationHandlersSayAaB_pGvp",
+            "moduleName": "PhunwareCorePlugin",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[any PhunwareCorePlugin.DeeplinkNavigable]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DeeplinkNavigable",
+                        "printedName": "any PhunwareCorePlugin.DeeplinkNavigable",
+                        "usr": "s:18PhunwareCorePlugin17DeeplinkNavigableP"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18PhunwareCorePlugin17DeeplinkNavigableP23childNavigationHandlersSayAaB_pGvg",
+                "mangledName": "$s18PhunwareCorePlugin17DeeplinkNavigableP23childNavigationHandlersSayAaB_pGvg",
+                "moduleName": "PhunwareCorePlugin",
+                "genericSig": "<τ_0_0 where τ_0_0 : PhunwareCorePlugin.DeeplinkNavigable>",
+                "sugared_genericSig": "<Self where Self : PhunwareCorePlugin.DeeplinkNavigable>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "navigationHandlerForUnhostedContent",
+            "printedName": "navigationHandlerForUnhostedContent",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any PhunwareCorePlugin.DeeplinkNavigable)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DeeplinkNavigable",
+                    "printedName": "any PhunwareCorePlugin.DeeplinkNavigable",
+                    "usr": "s:18PhunwareCorePlugin17DeeplinkNavigableP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18PhunwareCorePlugin17DeeplinkNavigableP35navigationHandlerForUnhostedContentAaB_pSgvp",
+            "mangledName": "$s18PhunwareCorePlugin17DeeplinkNavigableP35navigationHandlerForUnhostedContentAaB_pSgvp",
+            "moduleName": "PhunwareCorePlugin",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any PhunwareCorePlugin.DeeplinkNavigable)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DeeplinkNavigable",
+                        "printedName": "any PhunwareCorePlugin.DeeplinkNavigable",
+                        "usr": "s:18PhunwareCorePlugin17DeeplinkNavigableP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18PhunwareCorePlugin17DeeplinkNavigableP35navigationHandlerForUnhostedContentAaB_pSgvg",
+                "mangledName": "$s18PhunwareCorePlugin17DeeplinkNavigableP35navigationHandlerForUnhostedContentAaB_pSgvg",
+                "moduleName": "PhunwareCorePlugin",
+                "genericSig": "<τ_0_0 where τ_0_0 : PhunwareCorePlugin.DeeplinkNavigable>",
+                "sugared_genericSig": "<Self where Self : PhunwareCorePlugin.DeeplinkNavigable>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isDeeplinkingAvailable",
+            "printedName": "isDeeplinkingAvailable",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18PhunwareCorePlugin17DeeplinkNavigableP22isDeeplinkingAvailableSbvp",
+            "mangledName": "$s18PhunwareCorePlugin17DeeplinkNavigableP22isDeeplinkingAvailableSbvp",
+            "moduleName": "PhunwareCorePlugin",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18PhunwareCorePlugin17DeeplinkNavigableP22isDeeplinkingAvailableSbvg",
+                "mangledName": "$s18PhunwareCorePlugin17DeeplinkNavigableP22isDeeplinkingAvailableSbvg",
+                "moduleName": "PhunwareCorePlugin",
+                "genericSig": "<τ_0_0 where τ_0_0 : PhunwareCorePlugin.DeeplinkNavigable>",
+                "sugared_genericSig": "<Self where Self : PhunwareCorePlugin.DeeplinkNavigable>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "pendingDeeplink",
+            "printedName": "pendingDeeplink",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "PhunwareCorePlugin.DeferredDeeplink?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DeferredDeeplink",
+                    "printedName": "PhunwareCorePlugin.DeferredDeeplink",
+                    "usr": "s:18PhunwareCorePlugin16DeferredDeeplinkV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18PhunwareCorePlugin17DeeplinkNavigableP07pendingD0AA08DeferredD0VSgvp",
+            "mangledName": "$s18PhunwareCorePlugin17DeeplinkNavigableP07pendingD0AA08DeferredD0VSgvp",
+            "moduleName": "PhunwareCorePlugin",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "PhunwareCorePlugin.DeferredDeeplink?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DeferredDeeplink",
+                        "printedName": "PhunwareCorePlugin.DeferredDeeplink",
+                        "usr": "s:18PhunwareCorePlugin16DeferredDeeplinkV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18PhunwareCorePlugin17DeeplinkNavigableP07pendingD0AA08DeferredD0VSgvg",
+                "mangledName": "$s18PhunwareCorePlugin17DeeplinkNavigableP07pendingD0AA08DeferredD0VSgvg",
+                "moduleName": "PhunwareCorePlugin",
+                "genericSig": "<τ_0_0 where τ_0_0 : PhunwareCorePlugin.DeeplinkNavigable>",
+                "sugared_genericSig": "<Self where Self : PhunwareCorePlugin.DeeplinkNavigable>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "PhunwareCorePlugin.DeferredDeeplink?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DeferredDeeplink",
+                        "printedName": "PhunwareCorePlugin.DeferredDeeplink",
+                        "usr": "s:18PhunwareCorePlugin16DeferredDeeplinkV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18PhunwareCorePlugin17DeeplinkNavigableP07pendingD0AA08DeferredD0VSgvs",
+                "mangledName": "$s18PhunwareCorePlugin17DeeplinkNavigableP07pendingD0AA08DeferredD0VSgvs",
+                "moduleName": "PhunwareCorePlugin",
+                "genericSig": "<τ_0_0 where τ_0_0 : PhunwareCorePlugin.DeeplinkNavigable>",
+                "sugared_genericSig": "<Self where Self : PhunwareCorePlugin.DeeplinkNavigable>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18PhunwareCorePlugin17DeeplinkNavigableP07pendingD0AA08DeferredD0VSgvM",
+                "mangledName": "$s18PhunwareCorePlugin17DeeplinkNavigableP07pendingD0AA08DeferredD0VSgvM",
+                "moduleName": "PhunwareCorePlugin",
+                "genericSig": "<τ_0_0 where τ_0_0 : PhunwareCorePlugin.DeeplinkNavigable>",
+                "sugared_genericSig": "<Self where Self : PhunwareCorePlugin.DeeplinkNavigable>",
+                "protocolReq": true,
+                "implicit": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "canOpenUnhostedContent",
+            "printedName": "canOpenUnhostedContent",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18PhunwareCorePlugin17DeeplinkNavigableP22canOpenUnhostedContentSbvp",
+            "mangledName": "$s18PhunwareCorePlugin17DeeplinkNavigableP22canOpenUnhostedContentSbvp",
+            "moduleName": "PhunwareCorePlugin",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18PhunwareCorePlugin17DeeplinkNavigableP22canOpenUnhostedContentSbvg",
+                "mangledName": "$s18PhunwareCorePlugin17DeeplinkNavigableP22canOpenUnhostedContentSbvg",
+                "moduleName": "PhunwareCorePlugin",
+                "genericSig": "<τ_0_0 where τ_0_0 : PhunwareCorePlugin.DeeplinkNavigable>",
+                "sugared_genericSig": "<Self where Self : PhunwareCorePlugin.DeeplinkNavigable>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "queryCanOpenDirectly",
+            "printedName": "queryCanOpenDirectly(_:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Deeplink",
+                "printedName": "PhunwareCorePlugin.Deeplink",
+                "usr": "s:18PhunwareCorePlugin8DeeplinkV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Bool) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18PhunwareCorePlugin17DeeplinkNavigableP20queryCanOpenDirectly_10completionyAA0D0V_ySbctF",
+            "mangledName": "$s18PhunwareCorePlugin17DeeplinkNavigableP20queryCanOpenDirectly_10completionyAA0D0V_ySbctF",
+            "moduleName": "PhunwareCorePlugin",
+            "genericSig": "<τ_0_0 where τ_0_0 : PhunwareCorePlugin.DeeplinkNavigable>",
+            "sugared_genericSig": "<Self where Self : PhunwareCorePlugin.DeeplinkNavigable>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "openDeeplink",
+            "printedName": "openDeeplink(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Deeplink",
+                "printedName": "PhunwareCorePlugin.Deeplink",
+                "usr": "s:18PhunwareCorePlugin8DeeplinkV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18PhunwareCorePlugin17DeeplinkNavigableP04openD0ySbAA0D0VF",
+            "mangledName": "$s18PhunwareCorePlugin17DeeplinkNavigableP04openD0ySbAA0D0VF",
+            "moduleName": "PhunwareCorePlugin",
+            "genericSig": "<τ_0_0 where τ_0_0 : PhunwareCorePlugin.DeeplinkNavigable>",
+            "sugared_genericSig": "<Self where Self : PhunwareCorePlugin.DeeplinkNavigable>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "openUnhostedContent",
+            "printedName": "openUnhostedContent(_:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Deeplink",
+                "printedName": "PhunwareCorePlugin.Deeplink",
+                "usr": "s:18PhunwareCorePlugin8DeeplinkV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Bool) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18PhunwareCorePlugin17DeeplinkNavigableP19openUnhostedContent_10completionyAA0D0V_ySbctF",
+            "mangledName": "$s18PhunwareCorePlugin17DeeplinkNavigableP19openUnhostedContent_10completionyAA0D0V_ySbctF",
+            "moduleName": "PhunwareCorePlugin",
+            "genericSig": "<τ_0_0 where τ_0_0 : PhunwareCorePlugin.DeeplinkNavigable>",
+            "sugared_genericSig": "<Self where Self : PhunwareCorePlugin.DeeplinkNavigable>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "prepareForNavigation",
+            "printedName": "prepareForNavigation(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Deeplink",
+                "printedName": "PhunwareCorePlugin.Deeplink",
+                "usr": "s:18PhunwareCorePlugin8DeeplinkV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18PhunwareCorePlugin17DeeplinkNavigableP20prepareForNavigation2toyAA0D0V_tF",
+            "mangledName": "$s18PhunwareCorePlugin17DeeplinkNavigableP20prepareForNavigation2toyAA0D0V_tF",
+            "moduleName": "PhunwareCorePlugin",
+            "genericSig": "<τ_0_0 where τ_0_0 : PhunwareCorePlugin.DeeplinkNavigable>",
+            "sugared_genericSig": "<Self where Self : PhunwareCorePlugin.DeeplinkNavigable>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "childNavigationHandlers",
+            "printedName": "childNavigationHandlers",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[any PhunwareCorePlugin.DeeplinkNavigable]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DeeplinkNavigable",
+                    "printedName": "any PhunwareCorePlugin.DeeplinkNavigable",
+                    "usr": "s:18PhunwareCorePlugin17DeeplinkNavigableP"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18PhunwareCorePlugin17DeeplinkNavigablePAAE23childNavigationHandlersSayAaB_pGvp",
+            "mangledName": "$s18PhunwareCorePlugin17DeeplinkNavigablePAAE23childNavigationHandlersSayAaB_pGvp",
+            "moduleName": "PhunwareCorePlugin",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[any PhunwareCorePlugin.DeeplinkNavigable]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DeeplinkNavigable",
+                        "printedName": "any PhunwareCorePlugin.DeeplinkNavigable",
+                        "usr": "s:18PhunwareCorePlugin17DeeplinkNavigableP"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18PhunwareCorePlugin17DeeplinkNavigablePAAE23childNavigationHandlersSayAaB_pGvg",
+                "mangledName": "$s18PhunwareCorePlugin17DeeplinkNavigablePAAE23childNavigationHandlersSayAaB_pGvg",
+                "moduleName": "PhunwareCorePlugin",
+                "genericSig": "<τ_0_0 where τ_0_0 : PhunwareCorePlugin.DeeplinkNavigable>",
+                "sugared_genericSig": "<Self where Self : PhunwareCorePlugin.DeeplinkNavigable>",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "navigationHandlerForUnhostedContent",
+            "printedName": "navigationHandlerForUnhostedContent",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any PhunwareCorePlugin.DeeplinkNavigable)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DeeplinkNavigable",
+                    "printedName": "any PhunwareCorePlugin.DeeplinkNavigable",
+                    "usr": "s:18PhunwareCorePlugin17DeeplinkNavigableP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18PhunwareCorePlugin17DeeplinkNavigablePAAE35navigationHandlerForUnhostedContentAaB_pSgvp",
+            "mangledName": "$s18PhunwareCorePlugin17DeeplinkNavigablePAAE35navigationHandlerForUnhostedContentAaB_pSgvp",
+            "moduleName": "PhunwareCorePlugin",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any PhunwareCorePlugin.DeeplinkNavigable)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DeeplinkNavigable",
+                        "printedName": "any PhunwareCorePlugin.DeeplinkNavigable",
+                        "usr": "s:18PhunwareCorePlugin17DeeplinkNavigableP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18PhunwareCorePlugin17DeeplinkNavigablePAAE35navigationHandlerForUnhostedContentAaB_pSgvg",
+                "mangledName": "$s18PhunwareCorePlugin17DeeplinkNavigablePAAE35navigationHandlerForUnhostedContentAaB_pSgvg",
+                "moduleName": "PhunwareCorePlugin",
+                "genericSig": "<τ_0_0 where τ_0_0 : PhunwareCorePlugin.DeeplinkNavigable>",
+                "sugared_genericSig": "<Self where Self : PhunwareCorePlugin.DeeplinkNavigable>",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isDeeplinkingAvailable",
+            "printedName": "isDeeplinkingAvailable",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18PhunwareCorePlugin17DeeplinkNavigablePAAE22isDeeplinkingAvailableSbvp",
+            "mangledName": "$s18PhunwareCorePlugin17DeeplinkNavigablePAAE22isDeeplinkingAvailableSbvp",
+            "moduleName": "PhunwareCorePlugin",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18PhunwareCorePlugin17DeeplinkNavigablePAAE22isDeeplinkingAvailableSbvg",
+                "mangledName": "$s18PhunwareCorePlugin17DeeplinkNavigablePAAE22isDeeplinkingAvailableSbvg",
+                "moduleName": "PhunwareCorePlugin",
+                "genericSig": "<τ_0_0 where τ_0_0 : PhunwareCorePlugin.DeeplinkNavigable>",
+                "sugared_genericSig": "<Self where Self : PhunwareCorePlugin.DeeplinkNavigable>",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "canOpenUnhostedContent",
+            "printedName": "canOpenUnhostedContent",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18PhunwareCorePlugin17DeeplinkNavigablePAAE22canOpenUnhostedContentSbvp",
+            "mangledName": "$s18PhunwareCorePlugin17DeeplinkNavigablePAAE22canOpenUnhostedContentSbvp",
+            "moduleName": "PhunwareCorePlugin",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18PhunwareCorePlugin17DeeplinkNavigablePAAE22canOpenUnhostedContentSbvg",
+                "mangledName": "$s18PhunwareCorePlugin17DeeplinkNavigablePAAE22canOpenUnhostedContentSbvg",
+                "moduleName": "PhunwareCorePlugin",
+                "genericSig": "<τ_0_0 where τ_0_0 : PhunwareCorePlugin.DeeplinkNavigable>",
+                "sugared_genericSig": "<Self where Self : PhunwareCorePlugin.DeeplinkNavigable>",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "prepareForNavigation",
+            "printedName": "prepareForNavigation(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Deeplink",
+                "printedName": "PhunwareCorePlugin.Deeplink",
+                "usr": "s:18PhunwareCorePlugin8DeeplinkV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18PhunwareCorePlugin17DeeplinkNavigablePAAE20prepareForNavigation2toyAA0D0V_tF",
+            "mangledName": "$s18PhunwareCorePlugin17DeeplinkNavigablePAAE20prepareForNavigation2toyAA0D0V_tF",
+            "moduleName": "PhunwareCorePlugin",
+            "genericSig": "<τ_0_0 where τ_0_0 : PhunwareCorePlugin.DeeplinkNavigable>",
+            "sugared_genericSig": "<Self where Self : PhunwareCorePlugin.DeeplinkNavigable>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "openUnhostedContent",
+            "printedName": "openUnhostedContent(_:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Deeplink",
+                "printedName": "PhunwareCorePlugin.Deeplink",
+                "usr": "s:18PhunwareCorePlugin8DeeplinkV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Bool) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18PhunwareCorePlugin17DeeplinkNavigablePAAE19openUnhostedContent_10completionyAA0D0V_ySbctF",
+            "mangledName": "$s18PhunwareCorePlugin17DeeplinkNavigablePAAE19openUnhostedContent_10completionyAA0D0V_ySbctF",
+            "moduleName": "PhunwareCorePlugin",
+            "genericSig": "<τ_0_0 where τ_0_0 : PhunwareCorePlugin.DeeplinkNavigable>",
+            "sugared_genericSig": "<Self where Self : PhunwareCorePlugin.DeeplinkNavigable>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "followDeeplink",
+            "printedName": "followDeeplink(_:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Deeplink",
+                "printedName": "PhunwareCorePlugin.Deeplink",
+                "usr": "s:18PhunwareCorePlugin8DeeplinkV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Bool) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "hasDefaultArg": true
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18PhunwareCorePlugin17DeeplinkNavigablePAAE06followD0_10completionyAA0D0V_ySbctF",
+            "mangledName": "$s18PhunwareCorePlugin17DeeplinkNavigablePAAE06followD0_10completionyAA0D0V_ySbctF",
+            "moduleName": "PhunwareCorePlugin",
+            "genericSig": "<τ_0_0 where τ_0_0 : PhunwareCorePlugin.DeeplinkNavigable>",
+            "sugared_genericSig": "<Self where Self : PhunwareCorePlugin.DeeplinkNavigable>",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "followPendingDeeplinkIfAvailable",
+            "printedName": "followPendingDeeplinkIfAvailable()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18PhunwareCorePlugin17DeeplinkNavigablePAAE013followPendingD11IfAvailableyyF",
+            "mangledName": "$s18PhunwareCorePlugin17DeeplinkNavigablePAAE013followPendingD11IfAvailableyyF",
+            "moduleName": "PhunwareCorePlugin",
+            "genericSig": "<τ_0_0 where τ_0_0 : PhunwareCorePlugin.DeeplinkNavigable>",
+            "sugared_genericSig": "<Self where Self : PhunwareCorePlugin.DeeplinkNavigable>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:18PhunwareCorePlugin17DeeplinkNavigableP",
+        "mangledName": "$s18PhunwareCorePlugin17DeeplinkNavigableP",
+        "moduleName": "PhunwareCorePlugin",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PhunwareCorePlugin",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PhunwareFoundation",
+        "printedName": "PhunwareFoundation",
+        "declKind": "Import",
+        "moduleName": "PhunwareCorePlugin"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ModulePlugin",
+        "printedName": "ModulePlugin",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "id",
+            "printedName": "id",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18PhunwareCorePlugin06ModuleC0P2idSSvp",
+            "mangledName": "$s18PhunwareCorePlugin06ModuleC0P2idSSvp",
+            "moduleName": "PhunwareCorePlugin",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18PhunwareCorePlugin06ModuleC0P2idSSvg",
+                "mangledName": "$s18PhunwareCorePlugin06ModuleC0P2idSSvg",
+                "moduleName": "PhunwareCorePlugin",
+                "genericSig": "<τ_0_0 where τ_0_0 : PhunwareCorePlugin.ModulePlugin>",
+                "sugared_genericSig": "<Self where Self : PhunwareCorePlugin.ModulePlugin>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:18PhunwareCorePlugin06ModuleC0P",
+        "mangledName": "$s18PhunwareCorePlugin06ModuleC0P",
+        "moduleName": "PhunwareCorePlugin",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ModuleTabProviding",
+        "printedName": "ModuleTabProviding",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "coordinator",
+            "printedName": "coordinator(for:using:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any PhunwareFoundation.Coordinator)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Coordinator",
+                    "printedName": "any PhunwareFoundation.Coordinator",
+                    "usr": "s:18PhunwareFoundation11CoordinatorP"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UINavigationController",
+                "printedName": "UIKit.UINavigationController",
+                "usr": "c:objc(cs)UINavigationController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18PhunwareCorePlugin18ModuleTabProvidingP11coordinator3for5using0A10Foundation11Coordinator_pSgSS_So22UINavigationControllerCtF",
+            "mangledName": "$s18PhunwareCorePlugin18ModuleTabProvidingP11coordinator3for5using0A10Foundation11Coordinator_pSgSS_So22UINavigationControllerCtF",
+            "moduleName": "PhunwareCorePlugin",
+            "genericSig": "<τ_0_0 where τ_0_0 : PhunwareCorePlugin.ModuleTabProviding>",
+            "sugared_genericSig": "<Self where Self : PhunwareCorePlugin.ModuleTabProviding>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:18PhunwareCorePlugin18ModuleTabProvidingP",
+        "mangledName": "$s18PhunwareCorePlugin18ModuleTabProvidingP",
+        "moduleName": "PhunwareCorePlugin",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ModuleUnhostedContentProviding",
+        "printedName": "ModuleUnhostedContentProviding",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "unhostedCoordinator",
+            "printedName": "unhostedCoordinator(for:using:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any PhunwareCorePlugin.UnhostedCustomContentCoordinator)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UnhostedCustomContentCoordinator",
+                    "printedName": "any PhunwareCorePlugin.UnhostedCustomContentCoordinator",
+                    "usr": "s:18PhunwareCorePlugin32UnhostedCustomContentCoordinatorP"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Deeplink",
+                "printedName": "PhunwareCorePlugin.Deeplink",
+                "usr": "s:18PhunwareCorePlugin8DeeplinkV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UINavigationController",
+                "printedName": "UIKit.UINavigationController",
+                "usr": "c:objc(cs)UINavigationController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18PhunwareCorePlugin30ModuleUnhostedContentProvidingP19unhostedCoordinator3for5usingAA0e6CustomfI0_pSgAA8DeeplinkV_So22UINavigationControllerCtF",
+            "mangledName": "$s18PhunwareCorePlugin30ModuleUnhostedContentProvidingP19unhostedCoordinator3for5usingAA0e6CustomfI0_pSgAA8DeeplinkV_So22UINavigationControllerCtF",
+            "moduleName": "PhunwareCorePlugin",
+            "genericSig": "<τ_0_0 where τ_0_0 : PhunwareCorePlugin.ModuleUnhostedContentProviding>",
+            "sugared_genericSig": "<Self where Self : PhunwareCorePlugin.ModuleUnhostedContentProviding>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:18PhunwareCorePlugin30ModuleUnhostedContentProvidingP",
+        "mangledName": "$s18PhunwareCorePlugin30ModuleUnhostedContentProvidingP",
+        "moduleName": "PhunwareCorePlugin",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PhunwareCorePlugin",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PhunwareFoundation",
+        "printedName": "PhunwareFoundation",
+        "declKind": "Import",
+        "moduleName": "PhunwareCorePlugin"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UnhostedCustomContentCoordinatorDelegate",
+        "printedName": "UnhostedCustomContentCoordinatorDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "coordinatorDidDismiss",
+            "printedName": "coordinatorDidDismiss(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UnhostedCustomContentCoordinator",
+                "printedName": "any PhunwareCorePlugin.UnhostedCustomContentCoordinator",
+                "usr": "s:18PhunwareCorePlugin32UnhostedCustomContentCoordinatorP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18PhunwareCorePlugin40UnhostedCustomContentCoordinatorDelegateP21coordinatorDidDismissyyAA0defG0_pF",
+            "mangledName": "$s18PhunwareCorePlugin40UnhostedCustomContentCoordinatorDelegateP21coordinatorDidDismissyyAA0defG0_pF",
+            "moduleName": "PhunwareCorePlugin",
+            "genericSig": "<τ_0_0 where τ_0_0 : PhunwareCorePlugin.UnhostedCustomContentCoordinatorDelegate>",
+            "sugared_genericSig": "<Self where Self : PhunwareCorePlugin.UnhostedCustomContentCoordinatorDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:18PhunwareCorePlugin40UnhostedCustomContentCoordinatorDelegateP",
+        "mangledName": "$s18PhunwareCorePlugin40UnhostedCustomContentCoordinatorDelegateP",
+        "moduleName": "PhunwareCorePlugin",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UnhostedCustomContentCoordinator",
+        "printedName": "UnhostedCustomContentCoordinator",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "unhostedContentCoordinatorDelegate",
+            "printedName": "unhostedContentCoordinatorDelegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any PhunwareCorePlugin.UnhostedCustomContentCoordinatorDelegate)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UnhostedCustomContentCoordinatorDelegate",
+                    "printedName": "any PhunwareCorePlugin.UnhostedCustomContentCoordinatorDelegate",
+                    "usr": "s:18PhunwareCorePlugin40UnhostedCustomContentCoordinatorDelegateP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18PhunwareCorePlugin32UnhostedCustomContentCoordinatorP08unhostedfG8DelegateAA0defgI0_pSgvp",
+            "mangledName": "$s18PhunwareCorePlugin32UnhostedCustomContentCoordinatorP08unhostedfG8DelegateAA0defgI0_pSgvp",
+            "moduleName": "PhunwareCorePlugin",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any PhunwareCorePlugin.UnhostedCustomContentCoordinatorDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UnhostedCustomContentCoordinatorDelegate",
+                        "printedName": "any PhunwareCorePlugin.UnhostedCustomContentCoordinatorDelegate",
+                        "usr": "s:18PhunwareCorePlugin40UnhostedCustomContentCoordinatorDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18PhunwareCorePlugin32UnhostedCustomContentCoordinatorP08unhostedfG8DelegateAA0defgI0_pSgvg",
+                "mangledName": "$s18PhunwareCorePlugin32UnhostedCustomContentCoordinatorP08unhostedfG8DelegateAA0defgI0_pSgvg",
+                "moduleName": "PhunwareCorePlugin",
+                "genericSig": "<τ_0_0 where τ_0_0 : PhunwareCorePlugin.UnhostedCustomContentCoordinator>",
+                "sugared_genericSig": "<Self where Self : PhunwareCorePlugin.UnhostedCustomContentCoordinator>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any PhunwareCorePlugin.UnhostedCustomContentCoordinatorDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UnhostedCustomContentCoordinatorDelegate",
+                        "printedName": "any PhunwareCorePlugin.UnhostedCustomContentCoordinatorDelegate",
+                        "usr": "s:18PhunwareCorePlugin40UnhostedCustomContentCoordinatorDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18PhunwareCorePlugin32UnhostedCustomContentCoordinatorP08unhostedfG8DelegateAA0defgI0_pSgvs",
+                "mangledName": "$s18PhunwareCorePlugin32UnhostedCustomContentCoordinatorP08unhostedfG8DelegateAA0defgI0_pSgvs",
+                "moduleName": "PhunwareCorePlugin",
+                "genericSig": "<τ_0_0 where τ_0_0 : PhunwareCorePlugin.UnhostedCustomContentCoordinator>",
+                "sugared_genericSig": "<Self where Self : PhunwareCorePlugin.UnhostedCustomContentCoordinator>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18PhunwareCorePlugin32UnhostedCustomContentCoordinatorP08unhostedfG8DelegateAA0defgI0_pSgvM",
+                "mangledName": "$s18PhunwareCorePlugin32UnhostedCustomContentCoordinatorP08unhostedfG8DelegateAA0defgI0_pSgvM",
+                "moduleName": "PhunwareCorePlugin",
+                "genericSig": "<τ_0_0 where τ_0_0 : PhunwareCorePlugin.UnhostedCustomContentCoordinator>",
+                "sugared_genericSig": "<Self where Self : PhunwareCorePlugin.UnhostedCustomContentCoordinator>",
+                "protocolReq": true,
+                "implicit": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:18PhunwareCorePlugin32UnhostedCustomContentCoordinatorP",
+        "mangledName": "$s18PhunwareCorePlugin32UnhostedCustomContentCoordinatorP",
+        "moduleName": "PhunwareCorePlugin",
+        "genericSig": "<τ_0_0 : PhunwareFoundation.Coordinator>",
+        "sugared_genericSig": "<Self : PhunwareFoundation.Coordinator>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Coordinator",
+            "printedName": "Coordinator",
+            "usr": "s:18PhunwareFoundation11CoordinatorP",
+            "mangledName": "$s18PhunwareFoundation11CoordinatorP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/jenkins\/slave_data\/workspace\/artifact-core-plugin-external-ios\/CorePlugin\/Deeplink.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6064,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jenkins\/slave_data\/workspace\/artifact-core-plugin-external-ios\/CorePlugin\/Deeplink.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6880,
+      "length": 4,
+      "value": "true"
+    }
+  ]
+}
