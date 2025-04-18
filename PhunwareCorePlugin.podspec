@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name                = 'PhunwareCorePlugin'
-  spec.version             = '1.0.0'
+  spec.version             = '1.1.0'
   spec.summary             = 'A Phunware library that provides Core Module plugin interfaces.'
   spec.homepage            = 'https://www.phunware.com'
   spec.license             = { :type => 'Copyright', :text => 'Copyright 2009-present Phunware, Inc. All rights reserved.' }

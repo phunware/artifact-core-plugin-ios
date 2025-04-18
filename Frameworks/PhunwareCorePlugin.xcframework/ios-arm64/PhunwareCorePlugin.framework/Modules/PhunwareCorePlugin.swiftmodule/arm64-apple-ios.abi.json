@@ -2826,14 +2826,14 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/jenkins\/slave_data\/workspace\/artifact-core-plugin-external-ios\/CorePlugin\/Deeplink.swift",
+      "filePath": "\/Users\/jenkins\/slave_data\/workspace\/artifact-core-plugin-external-ios\/PhunwareCorePlugin\/Deeplink.swift",
       "kind": "BooleanLiteral",
       "offset": 6064,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jenkins\/slave_data\/workspace\/artifact-core-plugin-external-ios\/CorePlugin\/Deeplink.swift",
+      "filePath": "\/Users\/jenkins\/slave_data\/workspace\/artifact-core-plugin-external-ios\/PhunwareCorePlugin\/Deeplink.swift",
       "kind": "BooleanLiteral",
       "offset": 6880,
       "length": 4,
