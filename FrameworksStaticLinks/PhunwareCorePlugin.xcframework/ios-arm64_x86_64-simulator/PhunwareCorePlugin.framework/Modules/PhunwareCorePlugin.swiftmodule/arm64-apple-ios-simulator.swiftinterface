@@ -1,0 +1,90 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.0.2 effective-5.10 (swiftlang-6.0.2.1.2 clang-1600.0.26.4)
+// swift-module-flags: -target arm64-apple-ios15.5-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name PhunwareCorePlugin
+import Foundation
+@_exported import PhunwareCorePlugin
+import PhunwareFoundation
+import Swift
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public struct Deeplink {
+  public enum InternalDestination {
+    case document(collectionId: String, documentId: String)
+    case collection(collectionId: String, title: String?)
+  }
+  public enum ExternalDestination {
+    case map(mapName: String)
+    case custom(data: String)
+  }
+  public enum Destination {
+    case event(destination: InternalDestination)
+    case news(destination: InternalDestination)
+    case directory(destination: InternalDestination)
+    case directoryIndividual(destination: InternalDestination)
+    case contentDetail(destination: InternalDestination)
+    case weblink(url: URL)
+    case external(destination: ExternalDestination)
+    case externalApp(primaryURL: URL, fallbackURL: URL?)
+    case navigation(destinationPath: String)
+    case experienceSelector
+  }
+  public let destination: Destination
+  public let isUnhosted: Bool
+  public init?(contentType: String, contentAddress: String, titleToUseIfCollection title: String? = nil, fallbackURLString: String? = nil, isUnhosted: Bool = false)
+  public static func customDeeplink(string: String) -> Deeplink?
+  public static func customDeeplink(url: URL, isUnhosted: Bool = true) -> Deeplink?
+  public static func weblink(string: String) -> Deeplink?
+  public var asUnhosted: Deeplink {
+    get
+  }
+}
+public struct DeferredDeeplink {
+  public let deeplink: Deeplink
+  public let completion: (Bool) -> Void
+  public init(deeplink: Deeplink, completion: @escaping (Bool) -> Void)
+}
+public protocol DeeplinkNavigable : AnyObject {
+  var childNavigationHandlers: [DeeplinkNavigable] { get }
+  var navigationHandlerForUnhostedContent: DeeplinkNavigable? { get }
+  var isDeeplinkingAvailable: Bool { get }
+  var pendingDeeplink: DeferredDeeplink? { get set }
+  var canOpenUnhostedContent: Bool { get }
+  func queryCanOpenDirectly(_ deeplink: Deeplink, completion: @escaping (Bool) -> Void)
+  func openDeeplink(_ deeplink: Deeplink) -> Bool
+  func openUnhostedContent(_ deeplink: Deeplink, completion: @escaping (Bool) -> Void)
+  func prepareForNavigation(to deeplink: Deeplink)
+}
+extension DeeplinkNavigable {
+  public var childNavigationHandlers: [DeeplinkNavigable] {
+    get
+  }
+  public var navigationHandlerForUnhostedContent: DeeplinkNavigable? {
+    get
+  }
+  public var isDeeplinkingAvailable: Bool {
+    get
+  }
+  public var canOpenUnhostedContent: Bool {
+    get
+  }
+  public func prepareForNavigation(to deeplink: Deeplink)
+  public func openUnhostedContent(_ deeplink: Deeplink, completion: @escaping (Bool) -> Void)
+  public func followDeeplink(_ deeplink: Deeplink, completion: @escaping (Bool) -> Void = { _ in })
+  public func followPendingDeeplinkIfAvailable()
+}
+public protocol ModulePlugin {
+  var id: String { get }
+}
+public protocol ModuleTabProviding {
+  func coordinator(for tabIdentifier: String, using navController: UINavigationController) -> Coordinator?
+}
+public protocol ModuleUnhostedContentProviding {
+  func unhostedCoordinator(for deeplink: Deeplink, using navController: UINavigationController) -> UnhostedCustomContentCoordinator?
+}
+public protocol UnhostedCustomContentCoordinatorDelegate : AnyObject {
+  func coordinatorDidDismiss(_ coordinator: UnhostedCustomContentCoordinator)
+}
+public protocol UnhostedCustomContentCoordinator : PhunwareFoundation.Coordinator {
+  var unhostedContentCoordinatorDelegate: UnhostedCustomContentCoordinatorDelegate? { get set }
+}

@@ -1,0 +1,6 @@
+framework module PhunwareCorePlugin {
+  umbrella header "PhunwareCorePlugin.h"
+  export *
+
+  module * { export * }
+}
