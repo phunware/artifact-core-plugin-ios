@@ -1,6 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0.2 effective-5.10 (swiftlang-6.0.2.1.2 clang-1600.0.26.4)
-// swift-module-flags: -target x86_64-apple-ios15.5-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name PhunwareCorePlugin
+// swift-compiler-version: Apple Swift version 6.2.1 effective-5.10 (swiftlang-6.2.1.4.8 clang-1700.4.4.1)
+// swift-module-flags: -target x86_64-apple-ios15.5-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name PhunwareCorePlugin
+// swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.1
 import Foundation
 @_exported import PhunwareCorePlugin
 import PhunwareFoundation
@@ -31,10 +32,18 @@ public struct Deeplink {
   }
   public let destination: Destination
   public let isUnhosted: Bool
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(contentType: String, contentAddress: String, titleToUseIfCollection title: String? = nil, fallbackURLString: String? = nil, isUnhosted: Bool = false)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public static func customDeeplink(string: String) -> Deeplink?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public static func customDeeplink(url: URL, isUnhosted: Bool = true) -> Deeplink?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public static func weblink(string: String) -> Deeplink?
+  #endif
   public var asUnhosted: Deeplink {
     get
   }
@@ -46,9 +55,13 @@ public struct DeferredDeeplink {
 }
 public protocol DeeplinkNavigable : AnyObject {
   var childNavigationHandlers: [DeeplinkNavigable] { get }
+  #if compiler(>=5.3) && $NonescapableTypes
   var navigationHandlerForUnhostedContent: DeeplinkNavigable? { get }
+  #endif
   var isDeeplinkingAvailable: Bool { get }
+  #if compiler(>=5.3) && $NonescapableTypes
   var pendingDeeplink: DeferredDeeplink? { get set }
+  #endif
   var canOpenUnhostedContent: Bool { get }
   func queryCanOpenDirectly(_ deeplink: Deeplink, completion: @escaping (Bool) -> Void)
   func openDeeplink(_ deeplink: Deeplink) -> Bool
@@ -59,9 +72,11 @@ extension DeeplinkNavigable {
   public var childNavigationHandlers: [DeeplinkNavigable] {
     get
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   public var navigationHandlerForUnhostedContent: DeeplinkNavigable? {
     get
   }
+  #endif
   public var isDeeplinkingAvailable: Bool {
     get
   }
@@ -77,14 +92,20 @@ public protocol ModulePlugin {
   var id: String { get }
 }
 public protocol ModuleTabProviding {
+  #if compiler(>=5.3) && $NonescapableTypes
   func coordinator(for tabIdentifier: String, using navController: UINavigationController) -> Coordinator?
+  #endif
 }
 public protocol ModuleUnhostedContentProviding {
+  #if compiler(>=5.3) && $NonescapableTypes
   func unhostedCoordinator(for deeplink: Deeplink, using navController: UINavigationController) -> UnhostedCustomContentCoordinator?
+  #endif
 }
 public protocol UnhostedCustomContentCoordinatorDelegate : AnyObject {
   func coordinatorDidDismiss(_ coordinator: UnhostedCustomContentCoordinator)
 }
 public protocol UnhostedCustomContentCoordinator : PhunwareFoundation.Coordinator {
+  #if compiler(>=5.3) && $NonescapableTypes
   var unhostedContentCoordinatorDelegate: UnhostedCustomContentCoordinatorDelegate? { get set }
+  #endif
 }
