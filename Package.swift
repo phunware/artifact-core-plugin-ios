@@ -13,7 +13,7 @@ let package = Package(
             targets: ["PhunwareCorePluginTargets"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/phunware/artifact-foundation-ios.git", from: "1.1.0")
+        .package(url: "https://github.com/phunware/artifact-foundation-ios.git", branch: "release/1.1.0")
     ],
     targets: [
         // Internal frameworks
@@ -21,12 +21,12 @@ let package = Package(
             name: "PhunwareCorePlugin",
             path: "FrameworksStaticLinks/PhunwareCorePlugin.xcframework"
         ),
-        .target(name: "PhunwareFoundationTargets",
+        .target(name: "PhunwareCorePluginTargets",
             dependencies:[
                 .target(name: "PhunwareCorePlugin"),
-                .product(name: "PhunwareFoundation", package: "artifact-foundation-ios", condition: nil),
+                .product(name: "PhunwareFoundation", package: "artifact-foundation-ios"),
             ],
-            path: "PhunwareFoundationTargets"
+            path: "PhunwareCorePluginTargets"
         )
     ]
 )
