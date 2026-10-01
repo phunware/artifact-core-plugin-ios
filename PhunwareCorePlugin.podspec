@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name                = 'PhunwareCorePlugin'
-  spec.version             = '1.1.0'
+  spec.version             = '1.2.0'
   spec.summary             = 'A Phunware library that provides Core Module plugin interfaces.'
   spec.homepage            = 'https://www.phunware.com'
   spec.license             = { :type => 'Copyright', :text => 'Copyright 2009-present Phunware, Inc. All rights reserved.' }
@@ -9,7 +9,7 @@ Pod::Spec.new do |spec|
   spec.platform            = :ios, '15.5'
   spec.source              = { :git => 'https://github.com/phunware/artifact-core-plugin-ios.git', :tag => spec.version.to_s }
   spec.vendored_frameworks = 'Frameworks/PhunwareCorePlugin.xcframework'
-  spec.cocoapods_version = '>= 1.15.2'
+  spec.cocoapods_version = '>= 1.16.2'
 
   spec.dependency 'PhunwareFoundation', '~> 1.1.0'
 end
