@@ -2358,6 +2358,13 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "PhunwareCorePlugin"
+      },
+      {
+        "kind": "Import",
         "name": "PhunwareFoundation",
         "printedName": "PhunwareFoundation",
         "declKind": "Import",
@@ -2588,6 +2595,3350 @@
             "printedName": "Copyable",
             "usr": "s:s8CopyableP",
             "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PhunwareCorePlugin",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Action",
+        "printedName": "Action",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "calendar",
+            "printedName": "calendar",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PhunwareCorePlugin.Action.Type) -> (PhunwareCorePlugin.Action.Calendar) -> PhunwareCorePlugin.Action",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(PhunwareCorePlugin.Action.Calendar) -> PhunwareCorePlugin.Action",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Action",
+                        "printedName": "PhunwareCorePlugin.Action",
+                        "usr": "s:18PhunwareCorePlugin6ActionO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Calendar",
+                        "printedName": "PhunwareCorePlugin.Action.Calendar",
+                        "usr": "s:18PhunwareCorePlugin6ActionO8CalendarV"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PhunwareCorePlugin.Action.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Action",
+                        "printedName": "PhunwareCorePlugin.Action",
+                        "usr": "s:18PhunwareCorePlugin6ActionO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:18PhunwareCorePlugin6ActionO8calendaryA2C8CalendarVcACmF",
+            "mangledName": "$s18PhunwareCorePlugin6ActionO8calendaryA2C8CalendarVcACmF",
+            "moduleName": "PhunwareCorePlugin"
+          },
+          {
+            "kind": "Var",
+            "name": "deepLink",
+            "printedName": "deepLink",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PhunwareCorePlugin.Action.Type) -> (PhunwareCorePlugin.Action.DeepLink) -> PhunwareCorePlugin.Action",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(PhunwareCorePlugin.Action.DeepLink) -> PhunwareCorePlugin.Action",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Action",
+                        "printedName": "PhunwareCorePlugin.Action",
+                        "usr": "s:18PhunwareCorePlugin6ActionO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DeepLink",
+                        "printedName": "PhunwareCorePlugin.Action.DeepLink",
+                        "usr": "s:18PhunwareCorePlugin6ActionO8DeepLinkV"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PhunwareCorePlugin.Action.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Action",
+                        "printedName": "PhunwareCorePlugin.Action",
+                        "usr": "s:18PhunwareCorePlugin6ActionO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:18PhunwareCorePlugin6ActionO8deepLinkyA2C04DeepF0VcACmF",
+            "mangledName": "$s18PhunwareCorePlugin6ActionO8deepLinkyA2C04DeepF0VcACmF",
+            "moduleName": "PhunwareCorePlugin"
+          },
+          {
+            "kind": "Var",
+            "name": "email",
+            "printedName": "email",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PhunwareCorePlugin.Action.Type) -> (PhunwareCorePlugin.Action.Email) -> PhunwareCorePlugin.Action",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(PhunwareCorePlugin.Action.Email) -> PhunwareCorePlugin.Action",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Action",
+                        "printedName": "PhunwareCorePlugin.Action",
+                        "usr": "s:18PhunwareCorePlugin6ActionO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Email",
+                        "printedName": "PhunwareCorePlugin.Action.Email",
+                        "usr": "s:18PhunwareCorePlugin6ActionO5EmailV"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PhunwareCorePlugin.Action.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Action",
+                        "printedName": "PhunwareCorePlugin.Action",
+                        "usr": "s:18PhunwareCorePlugin6ActionO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:18PhunwareCorePlugin6ActionO5emailyA2C5EmailVcACmF",
+            "mangledName": "$s18PhunwareCorePlugin6ActionO5emailyA2C5EmailVcACmF",
+            "moduleName": "PhunwareCorePlugin"
+          },
+          {
+            "kind": "Var",
+            "name": "map",
+            "printedName": "map",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PhunwareCorePlugin.Action.Type) -> (PhunwareCorePlugin.Action.Map) -> PhunwareCorePlugin.Action",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(PhunwareCorePlugin.Action.Map) -> PhunwareCorePlugin.Action",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Action",
+                        "printedName": "PhunwareCorePlugin.Action",
+                        "usr": "s:18PhunwareCorePlugin6ActionO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Map",
+                        "printedName": "PhunwareCorePlugin.Action.Map",
+                        "usr": "s:18PhunwareCorePlugin6ActionO3MapV"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PhunwareCorePlugin.Action.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Action",
+                        "printedName": "PhunwareCorePlugin.Action",
+                        "usr": "s:18PhunwareCorePlugin6ActionO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:18PhunwareCorePlugin6ActionO3mapyA2C3MapVcACmF",
+            "mangledName": "$s18PhunwareCorePlugin6ActionO3mapyA2C3MapVcACmF",
+            "moduleName": "PhunwareCorePlugin"
+          },
+          {
+            "kind": "Var",
+            "name": "navigation",
+            "printedName": "navigation",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PhunwareCorePlugin.Action.Type) -> (PhunwareCorePlugin.Action.Navigation) -> PhunwareCorePlugin.Action",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(PhunwareCorePlugin.Action.Navigation) -> PhunwareCorePlugin.Action",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Action",
+                        "printedName": "PhunwareCorePlugin.Action",
+                        "usr": "s:18PhunwareCorePlugin6ActionO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Navigation",
+                        "printedName": "PhunwareCorePlugin.Action.Navigation",
+                        "usr": "s:18PhunwareCorePlugin6ActionO10NavigationV"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PhunwareCorePlugin.Action.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Action",
+                        "printedName": "PhunwareCorePlugin.Action",
+                        "usr": "s:18PhunwareCorePlugin6ActionO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:18PhunwareCorePlugin6ActionO10navigationyA2C10NavigationVcACmF",
+            "mangledName": "$s18PhunwareCorePlugin6ActionO10navigationyA2C10NavigationVcACmF",
+            "moduleName": "PhunwareCorePlugin"
+          },
+          {
+            "kind": "Var",
+            "name": "phone",
+            "printedName": "phone",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PhunwareCorePlugin.Action.Type) -> (PhunwareCorePlugin.Action.Phone) -> PhunwareCorePlugin.Action",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(PhunwareCorePlugin.Action.Phone) -> PhunwareCorePlugin.Action",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Action",
+                        "printedName": "PhunwareCorePlugin.Action",
+                        "usr": "s:18PhunwareCorePlugin6ActionO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Phone",
+                        "printedName": "PhunwareCorePlugin.Action.Phone",
+                        "usr": "s:18PhunwareCorePlugin6ActionO5PhoneV"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PhunwareCorePlugin.Action.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Action",
+                        "printedName": "PhunwareCorePlugin.Action",
+                        "usr": "s:18PhunwareCorePlugin6ActionO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:18PhunwareCorePlugin6ActionO5phoneyA2C5PhoneVcACmF",
+            "mangledName": "$s18PhunwareCorePlugin6ActionO5phoneyA2C5PhoneVcACmF",
+            "moduleName": "PhunwareCorePlugin"
+          },
+          {
+            "kind": "Var",
+            "name": "webLink",
+            "printedName": "webLink",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PhunwareCorePlugin.Action.Type) -> (PhunwareCorePlugin.Action.WebLink) -> PhunwareCorePlugin.Action",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(PhunwareCorePlugin.Action.WebLink) -> PhunwareCorePlugin.Action",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Action",
+                        "printedName": "PhunwareCorePlugin.Action",
+                        "usr": "s:18PhunwareCorePlugin6ActionO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WebLink",
+                        "printedName": "PhunwareCorePlugin.Action.WebLink",
+                        "usr": "s:18PhunwareCorePlugin6ActionO7WebLinkV"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PhunwareCorePlugin.Action.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Action",
+                        "printedName": "PhunwareCorePlugin.Action",
+                        "usr": "s:18PhunwareCorePlugin6ActionO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:18PhunwareCorePlugin6ActionO7webLinkyA2C03WebF0VcACmF",
+            "mangledName": "$s18PhunwareCorePlugin6ActionO7webLinkyA2C03WebF0VcACmF",
+            "moduleName": "PhunwareCorePlugin"
+          },
+          {
+            "kind": "Var",
+            "name": "sms",
+            "printedName": "sms",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PhunwareCorePlugin.Action.Type) -> (PhunwareCorePlugin.Action.SMS) -> PhunwareCorePlugin.Action",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(PhunwareCorePlugin.Action.SMS) -> PhunwareCorePlugin.Action",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Action",
+                        "printedName": "PhunwareCorePlugin.Action",
+                        "usr": "s:18PhunwareCorePlugin6ActionO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SMS",
+                        "printedName": "PhunwareCorePlugin.Action.SMS",
+                        "usr": "s:18PhunwareCorePlugin6ActionO3SMSV"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PhunwareCorePlugin.Action.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Action",
+                        "printedName": "PhunwareCorePlugin.Action",
+                        "usr": "s:18PhunwareCorePlugin6ActionO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:18PhunwareCorePlugin6ActionO3smsyA2C3SMSVcACmF",
+            "mangledName": "$s18PhunwareCorePlugin6ActionO3smsyA2C3SMSVcACmF",
+            "moduleName": "PhunwareCorePlugin"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Action",
+                "printedName": "PhunwareCorePlugin.Action",
+                "usr": "s:18PhunwareCorePlugin6ActionO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:18PhunwareCorePlugin6ActionO4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s18PhunwareCorePlugin6ActionO4fromACs7Decoder_p_tKcfc",
+            "moduleName": "PhunwareCorePlugin",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18PhunwareCorePlugin6ActionO6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s18PhunwareCorePlugin6ActionO6encode2toys7Encoder_p_tKF",
+            "moduleName": "PhunwareCorePlugin",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Action",
+                "printedName": "PhunwareCorePlugin.Action",
+                "usr": "s:18PhunwareCorePlugin6ActionO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Action",
+                "printedName": "PhunwareCorePlugin.Action",
+                "usr": "s:18PhunwareCorePlugin6ActionO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18PhunwareCorePlugin6ActionO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s18PhunwareCorePlugin6ActionO2eeoiySbAC_ACtFZ",
+            "moduleName": "PhunwareCorePlugin",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "Calendar",
+            "printedName": "Calendar",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "title",
+                "printedName": "title",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:18PhunwareCorePlugin6ActionO8CalendarV5titleSSvp",
+                "mangledName": "$s18PhunwareCorePlugin6ActionO8CalendarV5titleSSvp",
+                "moduleName": "PhunwareCorePlugin",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18PhunwareCorePlugin6ActionO8CalendarV5titleSSvg",
+                    "mangledName": "$s18PhunwareCorePlugin6ActionO8CalendarV5titleSSvg",
+                    "moduleName": "PhunwareCorePlugin",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18PhunwareCorePlugin6ActionO8CalendarV5titleSSvs",
+                    "mangledName": "$s18PhunwareCorePlugin6ActionO8CalendarV5titleSSvs",
+                    "moduleName": "PhunwareCorePlugin",
+                    "implicit": true,
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18PhunwareCorePlugin6ActionO8CalendarV5titleSSvM",
+                    "mangledName": "$s18PhunwareCorePlugin6ActionO8CalendarV5titleSSvM",
+                    "moduleName": "PhunwareCorePlugin",
+                    "implicit": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "start",
+                "printedName": "start",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:18PhunwareCorePlugin6ActionO8CalendarV5start10Foundation4DateVvp",
+                "mangledName": "$s18PhunwareCorePlugin6ActionO8CalendarV5start10Foundation4DateVvp",
+                "moduleName": "PhunwareCorePlugin",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Date",
+                        "printedName": "Foundation.Date",
+                        "usr": "s:10Foundation4DateV"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18PhunwareCorePlugin6ActionO8CalendarV5start10Foundation4DateVvg",
+                    "mangledName": "$s18PhunwareCorePlugin6ActionO8CalendarV5start10Foundation4DateVvg",
+                    "moduleName": "PhunwareCorePlugin",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Date",
+                        "printedName": "Foundation.Date",
+                        "usr": "s:10Foundation4DateV"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18PhunwareCorePlugin6ActionO8CalendarV5start10Foundation4DateVvs",
+                    "mangledName": "$s18PhunwareCorePlugin6ActionO8CalendarV5start10Foundation4DateVvs",
+                    "moduleName": "PhunwareCorePlugin",
+                    "implicit": true,
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18PhunwareCorePlugin6ActionO8CalendarV5start10Foundation4DateVvM",
+                    "mangledName": "$s18PhunwareCorePlugin6ActionO8CalendarV5start10Foundation4DateVvM",
+                    "moduleName": "PhunwareCorePlugin",
+                    "implicit": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "end",
+                "printedName": "end",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:18PhunwareCorePlugin6ActionO8CalendarV3end10Foundation4DateVvp",
+                "mangledName": "$s18PhunwareCorePlugin6ActionO8CalendarV3end10Foundation4DateVvp",
+                "moduleName": "PhunwareCorePlugin",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Date",
+                        "printedName": "Foundation.Date",
+                        "usr": "s:10Foundation4DateV"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18PhunwareCorePlugin6ActionO8CalendarV3end10Foundation4DateVvg",
+                    "mangledName": "$s18PhunwareCorePlugin6ActionO8CalendarV3end10Foundation4DateVvg",
+                    "moduleName": "PhunwareCorePlugin",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Date",
+                        "printedName": "Foundation.Date",
+                        "usr": "s:10Foundation4DateV"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18PhunwareCorePlugin6ActionO8CalendarV3end10Foundation4DateVvs",
+                    "mangledName": "$s18PhunwareCorePlugin6ActionO8CalendarV3end10Foundation4DateVvs",
+                    "moduleName": "PhunwareCorePlugin",
+                    "implicit": true,
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18PhunwareCorePlugin6ActionO8CalendarV3end10Foundation4DateVvM",
+                    "mangledName": "$s18PhunwareCorePlugin6ActionO8CalendarV3end10Foundation4DateVvM",
+                    "moduleName": "PhunwareCorePlugin",
+                    "implicit": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "allDay",
+                "printedName": "allDay",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:18PhunwareCorePlugin6ActionO8CalendarV6allDaySbvp",
+                "mangledName": "$s18PhunwareCorePlugin6ActionO8CalendarV6allDaySbvp",
+                "moduleName": "PhunwareCorePlugin",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18PhunwareCorePlugin6ActionO8CalendarV6allDaySbvg",
+                    "mangledName": "$s18PhunwareCorePlugin6ActionO8CalendarV6allDaySbvg",
+                    "moduleName": "PhunwareCorePlugin",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18PhunwareCorePlugin6ActionO8CalendarV6allDaySbvs",
+                    "mangledName": "$s18PhunwareCorePlugin6ActionO8CalendarV6allDaySbvs",
+                    "moduleName": "PhunwareCorePlugin",
+                    "implicit": true,
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18PhunwareCorePlugin6ActionO8CalendarV6allDaySbvM",
+                    "mangledName": "$s18PhunwareCorePlugin6ActionO8CalendarV6allDaySbvM",
+                    "moduleName": "PhunwareCorePlugin",
+                    "implicit": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "location",
+                "printedName": "location",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:18PhunwareCorePlugin6ActionO8CalendarV8locationSSvp",
+                "mangledName": "$s18PhunwareCorePlugin6ActionO8CalendarV8locationSSvp",
+                "moduleName": "PhunwareCorePlugin",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18PhunwareCorePlugin6ActionO8CalendarV8locationSSvg",
+                    "mangledName": "$s18PhunwareCorePlugin6ActionO8CalendarV8locationSSvg",
+                    "moduleName": "PhunwareCorePlugin",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18PhunwareCorePlugin6ActionO8CalendarV8locationSSvs",
+                    "mangledName": "$s18PhunwareCorePlugin6ActionO8CalendarV8locationSSvs",
+                    "moduleName": "PhunwareCorePlugin",
+                    "implicit": true,
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18PhunwareCorePlugin6ActionO8CalendarV8locationSSvM",
+                    "mangledName": "$s18PhunwareCorePlugin6ActionO8CalendarV8locationSSvM",
+                    "moduleName": "PhunwareCorePlugin",
+                    "implicit": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(title:start:end:allDay:location:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Calendar",
+                    "printedName": "PhunwareCorePlugin.Action.Calendar",
+                    "usr": "s:18PhunwareCorePlugin6ActionO8CalendarV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:18PhunwareCorePlugin6ActionO8CalendarV5title5start3end6allDay8locationAESS_10Foundation4DateVAMSbSStcfc",
+                "mangledName": "$s18PhunwareCorePlugin6ActionO8CalendarV5title5start3end6allDay8locationAESS_10Foundation4DateVAMSbSStcfc",
+                "moduleName": "PhunwareCorePlugin",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(from:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Calendar",
+                    "printedName": "PhunwareCorePlugin.Action.Calendar",
+                    "usr": "s:18PhunwareCorePlugin6ActionO8CalendarV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Decoder",
+                    "printedName": "any Swift.Decoder",
+                    "usr": "s:s7DecoderP"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:18PhunwareCorePlugin6ActionO8CalendarV4fromAEs7Decoder_p_tKcfc",
+                "mangledName": "$s18PhunwareCorePlugin6ActionO8CalendarV4fromAEs7Decoder_p_tKcfc",
+                "moduleName": "PhunwareCorePlugin",
+                "implicit": true,
+                "throwing": true,
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Function",
+                "name": "encode",
+                "printedName": "encode(to:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Encoder",
+                    "printedName": "any Swift.Encoder",
+                    "usr": "s:s7EncoderP"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:18PhunwareCorePlugin6ActionO8CalendarV6encode2toys7Encoder_p_tKF",
+                "mangledName": "$s18PhunwareCorePlugin6ActionO8CalendarV6encode2toys7Encoder_p_tKF",
+                "moduleName": "PhunwareCorePlugin",
+                "implicit": true,
+                "throwing": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "==",
+                "printedName": "==(_:_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Calendar",
+                    "printedName": "PhunwareCorePlugin.Action.Calendar",
+                    "usr": "s:18PhunwareCorePlugin6ActionO8CalendarV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Calendar",
+                    "printedName": "PhunwareCorePlugin.Action.Calendar",
+                    "usr": "s:18PhunwareCorePlugin6ActionO8CalendarV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:18PhunwareCorePlugin6ActionO8CalendarV2eeoiySbAE_AEtFZ",
+                "mangledName": "$s18PhunwareCorePlugin6ActionO8CalendarV2eeoiySbAE_AEtFZ",
+                "moduleName": "PhunwareCorePlugin",
+                "static": true,
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Struct",
+            "usr": "s:18PhunwareCorePlugin6ActionO8CalendarV",
+            "mangledName": "$s18PhunwareCorePlugin6ActionO8CalendarV",
+            "moduleName": "PhunwareCorePlugin",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Decodable",
+                "printedName": "Decodable",
+                "usr": "s:Se",
+                "mangledName": "$sSe"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Encodable",
+                "printedName": "Encodable",
+                "usr": "s:SE",
+                "mangledName": "$sSE"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "DeepLink",
+            "printedName": "DeepLink",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "url",
+                "printedName": "url",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:18PhunwareCorePlugin6ActionO8DeepLinkV3url10Foundation3URLVvp",
+                "mangledName": "$s18PhunwareCorePlugin6ActionO8DeepLinkV3url10Foundation3URLVvp",
+                "moduleName": "PhunwareCorePlugin",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "URL",
+                        "printedName": "Foundation.URL",
+                        "usr": "s:10Foundation3URLV"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18PhunwareCorePlugin6ActionO8DeepLinkV3url10Foundation3URLVvg",
+                    "mangledName": "$s18PhunwareCorePlugin6ActionO8DeepLinkV3url10Foundation3URLVvg",
+                    "moduleName": "PhunwareCorePlugin",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "URL",
+                        "printedName": "Foundation.URL",
+                        "usr": "s:10Foundation3URLV"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18PhunwareCorePlugin6ActionO8DeepLinkV3url10Foundation3URLVvs",
+                    "mangledName": "$s18PhunwareCorePlugin6ActionO8DeepLinkV3url10Foundation3URLVvs",
+                    "moduleName": "PhunwareCorePlugin",
+                    "implicit": true,
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18PhunwareCorePlugin6ActionO8DeepLinkV3url10Foundation3URLVvM",
+                    "mangledName": "$s18PhunwareCorePlugin6ActionO8DeepLinkV3url10Foundation3URLVvM",
+                    "moduleName": "PhunwareCorePlugin",
+                    "implicit": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "fallbackWebURL",
+                "printedName": "fallbackWebURL",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.URL?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "URL",
+                        "printedName": "Foundation.URL",
+                        "usr": "s:10Foundation3URLV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:18PhunwareCorePlugin6ActionO8DeepLinkV14fallbackWebURL10Foundation0I0VSgvp",
+                "mangledName": "$s18PhunwareCorePlugin6ActionO8DeepLinkV14fallbackWebURL10Foundation0I0VSgvp",
+                "moduleName": "PhunwareCorePlugin",
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Foundation.URL?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "URL",
+                            "printedName": "Foundation.URL",
+                            "usr": "s:10Foundation3URLV"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18PhunwareCorePlugin6ActionO8DeepLinkV14fallbackWebURL10Foundation0I0VSgvg",
+                    "mangledName": "$s18PhunwareCorePlugin6ActionO8DeepLinkV14fallbackWebURL10Foundation0I0VSgvg",
+                    "moduleName": "PhunwareCorePlugin",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Foundation.URL?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "URL",
+                            "printedName": "Foundation.URL",
+                            "usr": "s:10Foundation3URLV"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18PhunwareCorePlugin6ActionO8DeepLinkV14fallbackWebURL10Foundation0I0VSgvs",
+                    "mangledName": "$s18PhunwareCorePlugin6ActionO8DeepLinkV14fallbackWebURL10Foundation0I0VSgvs",
+                    "moduleName": "PhunwareCorePlugin",
+                    "implicit": true,
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18PhunwareCorePlugin6ActionO8DeepLinkV14fallbackWebURL10Foundation0I0VSgvM",
+                    "mangledName": "$s18PhunwareCorePlugin6ActionO8DeepLinkV14fallbackWebURL10Foundation0I0VSgvM",
+                    "moduleName": "PhunwareCorePlugin",
+                    "implicit": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(url:fallbackWebURL:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DeepLink",
+                    "printedName": "PhunwareCorePlugin.Action.DeepLink",
+                    "usr": "s:18PhunwareCorePlugin6ActionO8DeepLinkV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.URL?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "URL",
+                        "printedName": "Foundation.URL",
+                        "usr": "s:10Foundation3URLV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:18PhunwareCorePlugin6ActionO8DeepLinkV3url14fallbackWebURLAE10Foundation0J0V_AJSgtcfc",
+                "mangledName": "$s18PhunwareCorePlugin6ActionO8DeepLinkV3url14fallbackWebURLAE10Foundation0J0V_AJSgtcfc",
+                "moduleName": "PhunwareCorePlugin",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(from:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DeepLink",
+                    "printedName": "PhunwareCorePlugin.Action.DeepLink",
+                    "usr": "s:18PhunwareCorePlugin6ActionO8DeepLinkV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Decoder",
+                    "printedName": "any Swift.Decoder",
+                    "usr": "s:s7DecoderP"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:18PhunwareCorePlugin6ActionO8DeepLinkV4fromAEs7Decoder_p_tKcfc",
+                "mangledName": "$s18PhunwareCorePlugin6ActionO8DeepLinkV4fromAEs7Decoder_p_tKcfc",
+                "moduleName": "PhunwareCorePlugin",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "throwing": true,
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Function",
+                "name": "encode",
+                "printedName": "encode(to:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Encoder",
+                    "printedName": "any Swift.Encoder",
+                    "usr": "s:s7EncoderP"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:18PhunwareCorePlugin6ActionO8DeepLinkV6encode2toys7Encoder_p_tKF",
+                "mangledName": "$s18PhunwareCorePlugin6ActionO8DeepLinkV6encode2toys7Encoder_p_tKF",
+                "moduleName": "PhunwareCorePlugin",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "throwing": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "==",
+                "printedName": "==(_:_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DeepLink",
+                    "printedName": "PhunwareCorePlugin.Action.DeepLink",
+                    "usr": "s:18PhunwareCorePlugin6ActionO8DeepLinkV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DeepLink",
+                    "printedName": "PhunwareCorePlugin.Action.DeepLink",
+                    "usr": "s:18PhunwareCorePlugin6ActionO8DeepLinkV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:18PhunwareCorePlugin6ActionO8DeepLinkV2eeoiySbAE_AEtFZ",
+                "mangledName": "$s18PhunwareCorePlugin6ActionO8DeepLinkV2eeoiySbAE_AEtFZ",
+                "moduleName": "PhunwareCorePlugin",
+                "static": true,
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Struct",
+            "usr": "s:18PhunwareCorePlugin6ActionO8DeepLinkV",
+            "mangledName": "$s18PhunwareCorePlugin6ActionO8DeepLinkV",
+            "moduleName": "PhunwareCorePlugin",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Decodable",
+                "printedName": "Decodable",
+                "usr": "s:Se",
+                "mangledName": "$sSe"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Encodable",
+                "printedName": "Encodable",
+                "usr": "s:SE",
+                "mangledName": "$sSE"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "Email",
+            "printedName": "Email",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "subject",
+                "printedName": "subject",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:18PhunwareCorePlugin6ActionO5EmailV7subjectSSvp",
+                "mangledName": "$s18PhunwareCorePlugin6ActionO5EmailV7subjectSSvp",
+                "moduleName": "PhunwareCorePlugin",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18PhunwareCorePlugin6ActionO5EmailV7subjectSSvg",
+                    "mangledName": "$s18PhunwareCorePlugin6ActionO5EmailV7subjectSSvg",
+                    "moduleName": "PhunwareCorePlugin",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18PhunwareCorePlugin6ActionO5EmailV7subjectSSvs",
+                    "mangledName": "$s18PhunwareCorePlugin6ActionO5EmailV7subjectSSvs",
+                    "moduleName": "PhunwareCorePlugin",
+                    "implicit": true,
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18PhunwareCorePlugin6ActionO5EmailV7subjectSSvM",
+                    "mangledName": "$s18PhunwareCorePlugin6ActionO5EmailV7subjectSSvM",
+                    "moduleName": "PhunwareCorePlugin",
+                    "implicit": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "body",
+                "printedName": "body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:18PhunwareCorePlugin6ActionO5EmailV4bodySSvp",
+                "mangledName": "$s18PhunwareCorePlugin6ActionO5EmailV4bodySSvp",
+                "moduleName": "PhunwareCorePlugin",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18PhunwareCorePlugin6ActionO5EmailV4bodySSvg",
+                    "mangledName": "$s18PhunwareCorePlugin6ActionO5EmailV4bodySSvg",
+                    "moduleName": "PhunwareCorePlugin",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18PhunwareCorePlugin6ActionO5EmailV4bodySSvs",
+                    "mangledName": "$s18PhunwareCorePlugin6ActionO5EmailV4bodySSvs",
+                    "moduleName": "PhunwareCorePlugin",
+                    "implicit": true,
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18PhunwareCorePlugin6ActionO5EmailV4bodySSvM",
+                    "mangledName": "$s18PhunwareCorePlugin6ActionO5EmailV4bodySSvM",
+                    "moduleName": "PhunwareCorePlugin",
+                    "implicit": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "recipients",
+                "printedName": "recipients",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:18PhunwareCorePlugin6ActionO5EmailV10recipientsSaySSGvp",
+                "mangledName": "$s18PhunwareCorePlugin6ActionO5EmailV10recipientsSaySSGvp",
+                "moduleName": "PhunwareCorePlugin",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Swift.String]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18PhunwareCorePlugin6ActionO5EmailV10recipientsSaySSGvg",
+                    "mangledName": "$s18PhunwareCorePlugin6ActionO5EmailV10recipientsSaySSGvg",
+                    "moduleName": "PhunwareCorePlugin",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Swift.String]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18PhunwareCorePlugin6ActionO5EmailV10recipientsSaySSGvs",
+                    "mangledName": "$s18PhunwareCorePlugin6ActionO5EmailV10recipientsSaySSGvs",
+                    "moduleName": "PhunwareCorePlugin",
+                    "implicit": true,
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18PhunwareCorePlugin6ActionO5EmailV10recipientsSaySSGvM",
+                    "mangledName": "$s18PhunwareCorePlugin6ActionO5EmailV10recipientsSaySSGvM",
+                    "moduleName": "PhunwareCorePlugin",
+                    "implicit": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(subject:body:recipients:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Email",
+                    "printedName": "PhunwareCorePlugin.Action.Email",
+                    "usr": "s:18PhunwareCorePlugin6ActionO5EmailV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "hasDefaultArg": true,
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "hasDefaultArg": true,
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "hasDefaultArg": true,
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:18PhunwareCorePlugin6ActionO5EmailV7subject4body10recipientsAESS_SSSaySSGtcfc",
+                "mangledName": "$s18PhunwareCorePlugin6ActionO5EmailV7subject4body10recipientsAESS_SSSaySSGtcfc",
+                "moduleName": "PhunwareCorePlugin",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(from:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Email",
+                    "printedName": "PhunwareCorePlugin.Action.Email",
+                    "usr": "s:18PhunwareCorePlugin6ActionO5EmailV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Decoder",
+                    "printedName": "any Swift.Decoder",
+                    "usr": "s:s7DecoderP"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:18PhunwareCorePlugin6ActionO5EmailV4fromAEs7Decoder_p_tKcfc",
+                "mangledName": "$s18PhunwareCorePlugin6ActionO5EmailV4fromAEs7Decoder_p_tKcfc",
+                "moduleName": "PhunwareCorePlugin",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "throwing": true,
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Function",
+                "name": "encode",
+                "printedName": "encode(to:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Encoder",
+                    "printedName": "any Swift.Encoder",
+                    "usr": "s:s7EncoderP"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:18PhunwareCorePlugin6ActionO5EmailV6encode2toys7Encoder_p_tKF",
+                "mangledName": "$s18PhunwareCorePlugin6ActionO5EmailV6encode2toys7Encoder_p_tKF",
+                "moduleName": "PhunwareCorePlugin",
+                "implicit": true,
+                "throwing": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "==",
+                "printedName": "==(_:_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Email",
+                    "printedName": "PhunwareCorePlugin.Action.Email",
+                    "usr": "s:18PhunwareCorePlugin6ActionO5EmailV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Email",
+                    "printedName": "PhunwareCorePlugin.Action.Email",
+                    "usr": "s:18PhunwareCorePlugin6ActionO5EmailV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:18PhunwareCorePlugin6ActionO5EmailV2eeoiySbAE_AEtFZ",
+                "mangledName": "$s18PhunwareCorePlugin6ActionO5EmailV2eeoiySbAE_AEtFZ",
+                "moduleName": "PhunwareCorePlugin",
+                "static": true,
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Struct",
+            "usr": "s:18PhunwareCorePlugin6ActionO5EmailV",
+            "mangledName": "$s18PhunwareCorePlugin6ActionO5EmailV",
+            "moduleName": "PhunwareCorePlugin",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Decodable",
+                "printedName": "Decodable",
+                "usr": "s:Se",
+                "mangledName": "$sSe"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Encodable",
+                "printedName": "Encodable",
+                "usr": "s:SE",
+                "mangledName": "$sSE"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "Map",
+            "printedName": "Map",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "address",
+                "printedName": "address",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:18PhunwareCorePlugin6ActionO3MapV7addressSSvp",
+                "mangledName": "$s18PhunwareCorePlugin6ActionO3MapV7addressSSvp",
+                "moduleName": "PhunwareCorePlugin",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18PhunwareCorePlugin6ActionO3MapV7addressSSvg",
+                    "mangledName": "$s18PhunwareCorePlugin6ActionO3MapV7addressSSvg",
+                    "moduleName": "PhunwareCorePlugin",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18PhunwareCorePlugin6ActionO3MapV7addressSSvs",
+                    "mangledName": "$s18PhunwareCorePlugin6ActionO3MapV7addressSSvs",
+                    "moduleName": "PhunwareCorePlugin",
+                    "implicit": true,
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18PhunwareCorePlugin6ActionO3MapV7addressSSvM",
+                    "mangledName": "$s18PhunwareCorePlugin6ActionO3MapV7addressSSvM",
+                    "moduleName": "PhunwareCorePlugin",
+                    "implicit": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(address:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Map",
+                    "printedName": "PhunwareCorePlugin.Action.Map",
+                    "usr": "s:18PhunwareCorePlugin6ActionO3MapV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:18PhunwareCorePlugin6ActionO3MapV7addressAESS_tcfc",
+                "mangledName": "$s18PhunwareCorePlugin6ActionO3MapV7addressAESS_tcfc",
+                "moduleName": "PhunwareCorePlugin",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(from:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Map",
+                    "printedName": "PhunwareCorePlugin.Action.Map",
+                    "usr": "s:18PhunwareCorePlugin6ActionO3MapV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Decoder",
+                    "printedName": "any Swift.Decoder",
+                    "usr": "s:s7DecoderP"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:18PhunwareCorePlugin6ActionO3MapV4fromAEs7Decoder_p_tKcfc",
+                "mangledName": "$s18PhunwareCorePlugin6ActionO3MapV4fromAEs7Decoder_p_tKcfc",
+                "moduleName": "PhunwareCorePlugin",
+                "implicit": true,
+                "throwing": true,
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Function",
+                "name": "encode",
+                "printedName": "encode(to:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Encoder",
+                    "printedName": "any Swift.Encoder",
+                    "usr": "s:s7EncoderP"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:18PhunwareCorePlugin6ActionO3MapV6encode2toys7Encoder_p_tKF",
+                "mangledName": "$s18PhunwareCorePlugin6ActionO3MapV6encode2toys7Encoder_p_tKF",
+                "moduleName": "PhunwareCorePlugin",
+                "implicit": true,
+                "throwing": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "==",
+                "printedName": "==(_:_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Map",
+                    "printedName": "PhunwareCorePlugin.Action.Map",
+                    "usr": "s:18PhunwareCorePlugin6ActionO3MapV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Map",
+                    "printedName": "PhunwareCorePlugin.Action.Map",
+                    "usr": "s:18PhunwareCorePlugin6ActionO3MapV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:18PhunwareCorePlugin6ActionO3MapV2eeoiySbAE_AEtFZ",
+                "mangledName": "$s18PhunwareCorePlugin6ActionO3MapV2eeoiySbAE_AEtFZ",
+                "moduleName": "PhunwareCorePlugin",
+                "static": true,
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Struct",
+            "usr": "s:18PhunwareCorePlugin6ActionO3MapV",
+            "mangledName": "$s18PhunwareCorePlugin6ActionO3MapV",
+            "moduleName": "PhunwareCorePlugin",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Decodable",
+                "printedName": "Decodable",
+                "usr": "s:Se",
+                "mangledName": "$sSe"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Encodable",
+                "printedName": "Encodable",
+                "usr": "s:SE",
+                "mangledName": "$sSE"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "Navigation",
+            "printedName": "Navigation",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "destination",
+                "printedName": "destination",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:18PhunwareCorePlugin6ActionO10NavigationV11destinationSSvp",
+                "mangledName": "$s18PhunwareCorePlugin6ActionO10NavigationV11destinationSSvp",
+                "moduleName": "PhunwareCorePlugin",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18PhunwareCorePlugin6ActionO10NavigationV11destinationSSvg",
+                    "mangledName": "$s18PhunwareCorePlugin6ActionO10NavigationV11destinationSSvg",
+                    "moduleName": "PhunwareCorePlugin",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18PhunwareCorePlugin6ActionO10NavigationV11destinationSSvs",
+                    "mangledName": "$s18PhunwareCorePlugin6ActionO10NavigationV11destinationSSvs",
+                    "moduleName": "PhunwareCorePlugin",
+                    "implicit": true,
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18PhunwareCorePlugin6ActionO10NavigationV11destinationSSvM",
+                    "mangledName": "$s18PhunwareCorePlugin6ActionO10NavigationV11destinationSSvM",
+                    "moduleName": "PhunwareCorePlugin",
+                    "implicit": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(destination:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Navigation",
+                    "printedName": "PhunwareCorePlugin.Action.Navigation",
+                    "usr": "s:18PhunwareCorePlugin6ActionO10NavigationV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:18PhunwareCorePlugin6ActionO10NavigationV11destinationAESS_tcfc",
+                "mangledName": "$s18PhunwareCorePlugin6ActionO10NavigationV11destinationAESS_tcfc",
+                "moduleName": "PhunwareCorePlugin",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(from:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Navigation",
+                    "printedName": "PhunwareCorePlugin.Action.Navigation",
+                    "usr": "s:18PhunwareCorePlugin6ActionO10NavigationV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Decoder",
+                    "printedName": "any Swift.Decoder",
+                    "usr": "s:s7DecoderP"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:18PhunwareCorePlugin6ActionO10NavigationV4fromAEs7Decoder_p_tKcfc",
+                "mangledName": "$s18PhunwareCorePlugin6ActionO10NavigationV4fromAEs7Decoder_p_tKcfc",
+                "moduleName": "PhunwareCorePlugin",
+                "implicit": true,
+                "throwing": true,
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Function",
+                "name": "encode",
+                "printedName": "encode(to:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Encoder",
+                    "printedName": "any Swift.Encoder",
+                    "usr": "s:s7EncoderP"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:18PhunwareCorePlugin6ActionO10NavigationV6encode2toys7Encoder_p_tKF",
+                "mangledName": "$s18PhunwareCorePlugin6ActionO10NavigationV6encode2toys7Encoder_p_tKF",
+                "moduleName": "PhunwareCorePlugin",
+                "implicit": true,
+                "throwing": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "==",
+                "printedName": "==(_:_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Navigation",
+                    "printedName": "PhunwareCorePlugin.Action.Navigation",
+                    "usr": "s:18PhunwareCorePlugin6ActionO10NavigationV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Navigation",
+                    "printedName": "PhunwareCorePlugin.Action.Navigation",
+                    "usr": "s:18PhunwareCorePlugin6ActionO10NavigationV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:18PhunwareCorePlugin6ActionO10NavigationV2eeoiySbAE_AEtFZ",
+                "mangledName": "$s18PhunwareCorePlugin6ActionO10NavigationV2eeoiySbAE_AEtFZ",
+                "moduleName": "PhunwareCorePlugin",
+                "static": true,
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Struct",
+            "usr": "s:18PhunwareCorePlugin6ActionO10NavigationV",
+            "mangledName": "$s18PhunwareCorePlugin6ActionO10NavigationV",
+            "moduleName": "PhunwareCorePlugin",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Decodable",
+                "printedName": "Decodable",
+                "usr": "s:Se",
+                "mangledName": "$sSe"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Encodable",
+                "printedName": "Encodable",
+                "usr": "s:SE",
+                "mangledName": "$sSE"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "Phone",
+            "printedName": "Phone",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "number",
+                "printedName": "number",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:18PhunwareCorePlugin6ActionO5PhoneV6numberSSvp",
+                "mangledName": "$s18PhunwareCorePlugin6ActionO5PhoneV6numberSSvp",
+                "moduleName": "PhunwareCorePlugin",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18PhunwareCorePlugin6ActionO5PhoneV6numberSSvg",
+                    "mangledName": "$s18PhunwareCorePlugin6ActionO5PhoneV6numberSSvg",
+                    "moduleName": "PhunwareCorePlugin",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18PhunwareCorePlugin6ActionO5PhoneV6numberSSvs",
+                    "mangledName": "$s18PhunwareCorePlugin6ActionO5PhoneV6numberSSvs",
+                    "moduleName": "PhunwareCorePlugin",
+                    "implicit": true,
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18PhunwareCorePlugin6ActionO5PhoneV6numberSSvM",
+                    "mangledName": "$s18PhunwareCorePlugin6ActionO5PhoneV6numberSSvM",
+                    "moduleName": "PhunwareCorePlugin",
+                    "implicit": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(number:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Phone",
+                    "printedName": "PhunwareCorePlugin.Action.Phone",
+                    "usr": "s:18PhunwareCorePlugin6ActionO5PhoneV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:18PhunwareCorePlugin6ActionO5PhoneV6numberAESS_tcfc",
+                "mangledName": "$s18PhunwareCorePlugin6ActionO5PhoneV6numberAESS_tcfc",
+                "moduleName": "PhunwareCorePlugin",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(from:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Phone",
+                    "printedName": "PhunwareCorePlugin.Action.Phone",
+                    "usr": "s:18PhunwareCorePlugin6ActionO5PhoneV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Decoder",
+                    "printedName": "any Swift.Decoder",
+                    "usr": "s:s7DecoderP"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:18PhunwareCorePlugin6ActionO5PhoneV4fromAEs7Decoder_p_tKcfc",
+                "mangledName": "$s18PhunwareCorePlugin6ActionO5PhoneV4fromAEs7Decoder_p_tKcfc",
+                "moduleName": "PhunwareCorePlugin",
+                "implicit": true,
+                "throwing": true,
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Function",
+                "name": "encode",
+                "printedName": "encode(to:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Encoder",
+                    "printedName": "any Swift.Encoder",
+                    "usr": "s:s7EncoderP"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:18PhunwareCorePlugin6ActionO5PhoneV6encode2toys7Encoder_p_tKF",
+                "mangledName": "$s18PhunwareCorePlugin6ActionO5PhoneV6encode2toys7Encoder_p_tKF",
+                "moduleName": "PhunwareCorePlugin",
+                "implicit": true,
+                "throwing": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "==",
+                "printedName": "==(_:_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Phone",
+                    "printedName": "PhunwareCorePlugin.Action.Phone",
+                    "usr": "s:18PhunwareCorePlugin6ActionO5PhoneV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Phone",
+                    "printedName": "PhunwareCorePlugin.Action.Phone",
+                    "usr": "s:18PhunwareCorePlugin6ActionO5PhoneV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:18PhunwareCorePlugin6ActionO5PhoneV2eeoiySbAE_AEtFZ",
+                "mangledName": "$s18PhunwareCorePlugin6ActionO5PhoneV2eeoiySbAE_AEtFZ",
+                "moduleName": "PhunwareCorePlugin",
+                "static": true,
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Struct",
+            "usr": "s:18PhunwareCorePlugin6ActionO5PhoneV",
+            "mangledName": "$s18PhunwareCorePlugin6ActionO5PhoneV",
+            "moduleName": "PhunwareCorePlugin",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Decodable",
+                "printedName": "Decodable",
+                "usr": "s:Se",
+                "mangledName": "$sSe"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Encodable",
+                "printedName": "Encodable",
+                "usr": "s:SE",
+                "mangledName": "$sSE"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "WebLink",
+            "printedName": "WebLink",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "url",
+                "printedName": "url",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:18PhunwareCorePlugin6ActionO7WebLinkV3url10Foundation3URLVvp",
+                "mangledName": "$s18PhunwareCorePlugin6ActionO7WebLinkV3url10Foundation3URLVvp",
+                "moduleName": "PhunwareCorePlugin",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "URL",
+                        "printedName": "Foundation.URL",
+                        "usr": "s:10Foundation3URLV"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18PhunwareCorePlugin6ActionO7WebLinkV3url10Foundation3URLVvg",
+                    "mangledName": "$s18PhunwareCorePlugin6ActionO7WebLinkV3url10Foundation3URLVvg",
+                    "moduleName": "PhunwareCorePlugin",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "URL",
+                        "printedName": "Foundation.URL",
+                        "usr": "s:10Foundation3URLV"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18PhunwareCorePlugin6ActionO7WebLinkV3url10Foundation3URLVvs",
+                    "mangledName": "$s18PhunwareCorePlugin6ActionO7WebLinkV3url10Foundation3URLVvs",
+                    "moduleName": "PhunwareCorePlugin",
+                    "implicit": true,
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18PhunwareCorePlugin6ActionO7WebLinkV3url10Foundation3URLVvM",
+                    "mangledName": "$s18PhunwareCorePlugin6ActionO7WebLinkV3url10Foundation3URLVvM",
+                    "moduleName": "PhunwareCorePlugin",
+                    "implicit": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(url:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WebLink",
+                    "printedName": "PhunwareCorePlugin.Action.WebLink",
+                    "usr": "s:18PhunwareCorePlugin6ActionO7WebLinkV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:18PhunwareCorePlugin6ActionO7WebLinkV3urlAE10Foundation3URLV_tcfc",
+                "mangledName": "$s18PhunwareCorePlugin6ActionO7WebLinkV3urlAE10Foundation3URLV_tcfc",
+                "moduleName": "PhunwareCorePlugin",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(from:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WebLink",
+                    "printedName": "PhunwareCorePlugin.Action.WebLink",
+                    "usr": "s:18PhunwareCorePlugin6ActionO7WebLinkV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Decoder",
+                    "printedName": "any Swift.Decoder",
+                    "usr": "s:s7DecoderP"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:18PhunwareCorePlugin6ActionO7WebLinkV4fromAEs7Decoder_p_tKcfc",
+                "mangledName": "$s18PhunwareCorePlugin6ActionO7WebLinkV4fromAEs7Decoder_p_tKcfc",
+                "moduleName": "PhunwareCorePlugin",
+                "implicit": true,
+                "throwing": true,
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Function",
+                "name": "encode",
+                "printedName": "encode(to:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Encoder",
+                    "printedName": "any Swift.Encoder",
+                    "usr": "s:s7EncoderP"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:18PhunwareCorePlugin6ActionO7WebLinkV6encode2toys7Encoder_p_tKF",
+                "mangledName": "$s18PhunwareCorePlugin6ActionO7WebLinkV6encode2toys7Encoder_p_tKF",
+                "moduleName": "PhunwareCorePlugin",
+                "implicit": true,
+                "throwing": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "==",
+                "printedName": "==(_:_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WebLink",
+                    "printedName": "PhunwareCorePlugin.Action.WebLink",
+                    "usr": "s:18PhunwareCorePlugin6ActionO7WebLinkV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WebLink",
+                    "printedName": "PhunwareCorePlugin.Action.WebLink",
+                    "usr": "s:18PhunwareCorePlugin6ActionO7WebLinkV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:18PhunwareCorePlugin6ActionO7WebLinkV2eeoiySbAE_AEtFZ",
+                "mangledName": "$s18PhunwareCorePlugin6ActionO7WebLinkV2eeoiySbAE_AEtFZ",
+                "moduleName": "PhunwareCorePlugin",
+                "static": true,
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Struct",
+            "usr": "s:18PhunwareCorePlugin6ActionO7WebLinkV",
+            "mangledName": "$s18PhunwareCorePlugin6ActionO7WebLinkV",
+            "moduleName": "PhunwareCorePlugin",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Decodable",
+                "printedName": "Decodable",
+                "usr": "s:Se",
+                "mangledName": "$sSe"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Encodable",
+                "printedName": "Encodable",
+                "usr": "s:SE",
+                "mangledName": "$sSE"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "SMS",
+            "printedName": "SMS",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "body",
+                "printedName": "body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:18PhunwareCorePlugin6ActionO3SMSV4bodySSSgvp",
+                "mangledName": "$s18PhunwareCorePlugin6ActionO3SMSV4bodySSSgvp",
+                "moduleName": "PhunwareCorePlugin",
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18PhunwareCorePlugin6ActionO3SMSV4bodySSSgvg",
+                    "mangledName": "$s18PhunwareCorePlugin6ActionO3SMSV4bodySSSgvg",
+                    "moduleName": "PhunwareCorePlugin",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18PhunwareCorePlugin6ActionO3SMSV4bodySSSgvs",
+                    "mangledName": "$s18PhunwareCorePlugin6ActionO3SMSV4bodySSSgvs",
+                    "moduleName": "PhunwareCorePlugin",
+                    "implicit": true,
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18PhunwareCorePlugin6ActionO3SMSV4bodySSSgvM",
+                    "mangledName": "$s18PhunwareCorePlugin6ActionO3SMSV4bodySSSgvM",
+                    "moduleName": "PhunwareCorePlugin",
+                    "implicit": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "recipients",
+                "printedName": "recipients",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:18PhunwareCorePlugin6ActionO3SMSV10recipientsSaySSGvp",
+                "mangledName": "$s18PhunwareCorePlugin6ActionO3SMSV10recipientsSaySSGvp",
+                "moduleName": "PhunwareCorePlugin",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Swift.String]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18PhunwareCorePlugin6ActionO3SMSV10recipientsSaySSGvg",
+                    "mangledName": "$s18PhunwareCorePlugin6ActionO3SMSV10recipientsSaySSGvg",
+                    "moduleName": "PhunwareCorePlugin",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Swift.String]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18PhunwareCorePlugin6ActionO3SMSV10recipientsSaySSGvs",
+                    "mangledName": "$s18PhunwareCorePlugin6ActionO3SMSV10recipientsSaySSGvs",
+                    "moduleName": "PhunwareCorePlugin",
+                    "implicit": true,
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18PhunwareCorePlugin6ActionO3SMSV10recipientsSaySSGvM",
+                    "mangledName": "$s18PhunwareCorePlugin6ActionO3SMSV10recipientsSaySSGvM",
+                    "moduleName": "PhunwareCorePlugin",
+                    "implicit": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(from:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SMS",
+                    "printedName": "PhunwareCorePlugin.Action.SMS",
+                    "usr": "s:18PhunwareCorePlugin6ActionO3SMSV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Decoder",
+                    "printedName": "any Swift.Decoder",
+                    "usr": "s:s7DecoderP"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:18PhunwareCorePlugin6ActionO3SMSV4fromAEs7Decoder_p_tKcfc",
+                "mangledName": "$s18PhunwareCorePlugin6ActionO3SMSV4fromAEs7Decoder_p_tKcfc",
+                "moduleName": "PhunwareCorePlugin",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "throwing": true,
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Function",
+                "name": "encode",
+                "printedName": "encode(to:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Encoder",
+                    "printedName": "any Swift.Encoder",
+                    "usr": "s:s7EncoderP"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:18PhunwareCorePlugin6ActionO3SMSV6encode2toys7Encoder_p_tKF",
+                "mangledName": "$s18PhunwareCorePlugin6ActionO3SMSV6encode2toys7Encoder_p_tKF",
+                "moduleName": "PhunwareCorePlugin",
+                "implicit": true,
+                "throwing": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "==",
+                "printedName": "==(_:_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SMS",
+                    "printedName": "PhunwareCorePlugin.Action.SMS",
+                    "usr": "s:18PhunwareCorePlugin6ActionO3SMSV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SMS",
+                    "printedName": "PhunwareCorePlugin.Action.SMS",
+                    "usr": "s:18PhunwareCorePlugin6ActionO3SMSV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:18PhunwareCorePlugin6ActionO3SMSV2eeoiySbAE_AEtFZ",
+                "mangledName": "$s18PhunwareCorePlugin6ActionO3SMSV2eeoiySbAE_AEtFZ",
+                "moduleName": "PhunwareCorePlugin",
+                "static": true,
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Struct",
+            "usr": "s:18PhunwareCorePlugin6ActionO3SMSV",
+            "mangledName": "$s18PhunwareCorePlugin6ActionO3SMSV",
+            "moduleName": "PhunwareCorePlugin",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Decodable",
+                "printedName": "Decodable",
+                "usr": "s:Se",
+                "mangledName": "$sSe"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Encodable",
+                "printedName": "Encodable",
+                "usr": "s:SE",
+                "mangledName": "$sSE"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:18PhunwareCorePlugin6ActionO",
+        "mangledName": "$s18PhunwareCorePlugin6ActionO",
+        "moduleName": "PhunwareCorePlugin",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
           }
         ]
       },
@@ -2838,6 +6189,34 @@
       "offset": 6880,
       "length": 4,
       "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jenkins\/slave_data\/workspace\/artifact-core-plugin-external-ios\/PhunwareCorePlugin\/Action.swift",
+      "kind": "StringLiteral",
+      "offset": 5075,
+      "length": 16,
+      "value": "\"fallbackWebUrl\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/slave_data\/workspace\/artifact-core-plugin-external-ios\/PhunwareCorePlugin\/Action.swift",
+      "kind": "StringLiteral",
+      "offset": 6247,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/slave_data\/workspace\/artifact-core-plugin-external-ios\/PhunwareCorePlugin\/Action.swift",
+      "kind": "StringLiteral",
+      "offset": 6266,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/slave_data\/workspace\/artifact-core-plugin-external-ios\/PhunwareCorePlugin\/Action.swift",
+      "kind": "Array",
+      "offset": 6293,
+      "length": 2,
+      "value": "[]"
     }
   ]
 }

@@ -1,10 +1,12 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0.2 effective-5.10 (swiftlang-6.0.2.1.2 clang-1600.0.26.4)
-// swift-module-flags: -target x86_64-apple-ios15.5-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name PhunwareCorePlugin
+// swift-compiler-version: Apple Swift version 6.2.1 effective-5.10 (swiftlang-6.2.1.4.8 clang-1700.4.4.1)
+// swift-module-flags: -target x86_64-apple-ios15.5-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name PhunwareCorePlugin
+// swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.1
 import Foundation
 @_exported import PhunwareCorePlugin
 import PhunwareFoundation
 import Swift
+import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
@@ -31,10 +33,18 @@ public struct Deeplink {
   }
   public let destination: Destination
   public let isUnhosted: Bool
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(contentType: String, contentAddress: String, titleToUseIfCollection title: String? = nil, fallbackURLString: String? = nil, isUnhosted: Bool = false)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public static func customDeeplink(string: String) -> Deeplink?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public static func customDeeplink(url: URL, isUnhosted: Bool = true) -> Deeplink?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public static func weblink(string: String) -> Deeplink?
+  #endif
   public var asUnhosted: Deeplink {
     get
   }
@@ -46,9 +56,13 @@ public struct DeferredDeeplink {
 }
 public protocol DeeplinkNavigable : AnyObject {
   var childNavigationHandlers: [DeeplinkNavigable] { get }
+  #if compiler(>=5.3) && $NonescapableTypes
   var navigationHandlerForUnhostedContent: DeeplinkNavigable? { get }
+  #endif
   var isDeeplinkingAvailable: Bool { get }
+  #if compiler(>=5.3) && $NonescapableTypes
   var pendingDeeplink: DeferredDeeplink? { get set }
+  #endif
   var canOpenUnhostedContent: Bool { get }
   func queryCanOpenDirectly(_ deeplink: Deeplink, completion: @escaping (Bool) -> Void)
   func openDeeplink(_ deeplink: Deeplink) -> Bool
@@ -59,9 +73,11 @@ extension DeeplinkNavigable {
   public var childNavigationHandlers: [DeeplinkNavigable] {
     get
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   public var navigationHandlerForUnhostedContent: DeeplinkNavigable? {
     get
   }
+  #endif
   public var isDeeplinkingAvailable: Bool {
     get
   }
@@ -77,14 +93,114 @@ public protocol ModulePlugin {
   var id: String { get }
 }
 public protocol ModuleTabProviding {
+  #if compiler(>=5.3) && $NonescapableTypes
   func coordinator(for tabIdentifier: String, using navController: UINavigationController) -> Coordinator?
+  #endif
 }
 public protocol ModuleUnhostedContentProviding {
+  #if compiler(>=5.3) && $NonescapableTypes
   func unhostedCoordinator(for deeplink: Deeplink, using navController: UINavigationController) -> UnhostedCustomContentCoordinator?
+  #endif
+}
+public enum Action : Codable, Equatable {
+  case calendar(Calendar)
+  case deepLink(DeepLink)
+  case email(Email)
+  case map(Map)
+  case navigation(Navigation)
+  case phone(Phone)
+  case webLink(WebLink)
+  case sms(SMS)
+  public init(from decoder: any Decoder) throws
+  public func encode(to encoder: any Encoder) throws
+  public static func == (a: Action, b: Action) -> Swift.Bool
+}
+extension Action {
+  public struct Calendar : Codable, Equatable {
+    public var title: String
+    public var start: Date
+    public var end: Date
+    public var allDay: Bool
+    public var location: String
+    public init(title: String, start: Date, end: Date, allDay: Bool, location: String)
+    public static func == (a: Action.Calendar, b: Action.Calendar) -> Swift.Bool
+    public func encode(to encoder: any Swift.Encoder) throws
+    public init(from decoder: any Swift.Decoder) throws
+  }
+}
+extension Action {
+  public struct DeepLink : Codable, Equatable {
+    public var url: URL
+    public var fallbackWebURL: URL?
+    #if compiler(>=5.3) && $NonescapableTypes
+    public init(url: URL, fallbackWebURL: URL?)
+    #endif
+    public init(from decoder: any Decoder) throws
+    public func encode(to encoder: any Encoder) throws
+    public static func == (a: Action.DeepLink, b: Action.DeepLink) -> Swift.Bool
+  }
+}
+extension Action {
+  public struct Email : Codable, Equatable {
+    public var subject: String
+    public var body: String
+    public var recipients: [String]
+    public init(subject: String = "", body: String = "", recipients: [String] = [])
+    public init(from decoder: any Decoder) throws
+    public static func == (a: Action.Email, b: Action.Email) -> Swift.Bool
+    public func encode(to encoder: any Swift.Encoder) throws
+  }
+}
+extension Action {
+  public struct Map : Codable, Equatable {
+    public var address: String
+    public init(address: String)
+    public static func == (a: Action.Map, b: Action.Map) -> Swift.Bool
+    public func encode(to encoder: any Swift.Encoder) throws
+    public init(from decoder: any Swift.Decoder) throws
+  }
+}
+extension Action {
+  public struct Navigation : Codable, Equatable {
+    public var destination: String
+    public init(destination: String)
+    public static func == (a: Action.Navigation, b: Action.Navigation) -> Swift.Bool
+    public func encode(to encoder: any Swift.Encoder) throws
+    public init(from decoder: any Swift.Decoder) throws
+  }
+}
+extension Action {
+  public struct Phone : Codable, Equatable {
+    public var number: String
+    public init(number: String)
+    public static func == (a: Action.Phone, b: Action.Phone) -> Swift.Bool
+    public func encode(to encoder: any Swift.Encoder) throws
+    public init(from decoder: any Swift.Decoder) throws
+  }
+}
+extension Action {
+  public struct WebLink : Codable, Equatable {
+    public var url: URL
+    public init(url: URL)
+    public static func == (a: Action.WebLink, b: Action.WebLink) -> Swift.Bool
+    public func encode(to encoder: any Swift.Encoder) throws
+    public init(from decoder: any Swift.Decoder) throws
+  }
+}
+extension Action {
+  public struct SMS : Codable, Equatable {
+    public var body: String?
+    public var recipients: [String]
+    public init(from decoder: any Decoder) throws
+    public static func == (a: Action.SMS, b: Action.SMS) -> Swift.Bool
+    public func encode(to encoder: any Swift.Encoder) throws
+  }
 }
 public protocol UnhostedCustomContentCoordinatorDelegate : AnyObject {
   func coordinatorDidDismiss(_ coordinator: UnhostedCustomContentCoordinator)
 }
 public protocol UnhostedCustomContentCoordinator : PhunwareFoundation.Coordinator {
+  #if compiler(>=5.3) && $NonescapableTypes
   var unhostedContentCoordinatorDelegate: UnhostedCustomContentCoordinatorDelegate? { get set }
+  #endif
 }
